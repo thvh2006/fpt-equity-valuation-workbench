@@ -1,0 +1,63 @@
+project:
+  name: equity-valuation-workbench
+  status: portfolio_ready_clock_b_complete
+  intended_use: research_and_portfolio_demo
+
+decision:
+  persona: equity_analyst
+  company: FPT Corporation
+  ticker: FPT
+  exchange: HOSE
+  market: Vietnam
+  base_currency: VND
+
+research_clocks:
+  historical:
+    forecast_origin: 2025-Q3
+    information_cutoff: 2025-10-31
+    purpose: out_of_sample_validation
+  live:
+    information_cutoff: 2026-10-09
+    purpose: current_research_view
+
+forecast:
+  history_years: 5
+  forecast_years: 5
+  scenarios:
+    - base
+    - downside
+    - upside
+
+valuation:
+  methods:
+    - dcf
+    - reverse_dcf
+    - peer_pe
+    - historical_multiple_context
+    - sum_of_parts_dcf
+    - associate_earnings_capitalisation
+
+governance:
+  show_data_freshness: true
+  version_assumptions: true
+  record_thesis_changes: true
+  thesis_monitor_enabled: true
+  thesis_monitor_refresh_frequency: quarterly
+  clock_a_frozen_artifact: reports/fpt_equity_valuation_v0_6.xlsx
+  clock_a_sha256: 0cb2a73e4f6cef7b842821149e36340d6c4cdc377d03a148ee88322f1d37da25
+  post_cutoff_actuals_feed_forecast: false
+  clock_b_artifact: reports/fpt_equity_valuation_v0_8.xlsx
+  clock_b_sha256: 488ee82ad7e50f195222504da249c78dc0c9251df2641db27f136db41187ca89
+  clock_b_report_pdf: reports/fpt_equity_update_report_clock_b_v1_0.pdf
+  clock_b_report_pdf_sha256: 4b3202c2f8c82fde6c352bb023f7836a20105327f4503ef286c3a894a6ea730b
+  clock_b_accounting_basis: fpt_telecom_equity_method
+  clock_b_market_date: 2026-10-09
+
+backtest:
+  actual_period: FY2025
+  primary_tests:
+    - group_revenue
+    - ebit_margin
+    - fcff
+  status: mixed
+  next_action: refresh_after_fy2026_cash_flow_disclosure

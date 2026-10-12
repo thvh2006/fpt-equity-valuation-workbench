@@ -1,0 +1,37 @@
+statement,metric_id,metric,segment,unit,value_2025,value_2024,source_id,source_pdf_pages,note
+income_statement,net_revenue,Net revenue,group,VND bn,70112.825100710,62848.794351367,fpt_ar_2025,169,Audited consolidated net revenue
+income_statement,gross_profit,Gross profit,group,VND bn,25888.529512413,23698.348369916,fpt_ar_2025,169,Audited consolidated gross profit
+income_statement,selling_expense,Selling expenses,group,VND bn,7562.660640454,6115.961971783,fpt_ar_2025,169,Presented as a positive expense for analysis
+income_statement,general_admin_expense,General and administration expenses,group,VND bn,7337.325397804,7074.038614774,fpt_ar_2025,169,Presented as a positive expense for analysis
+income_statement,profit_before_tax,Profit before tax,group,VND bn,13043.632833797,11069.666417819,fpt_ar_2025,169,Audited consolidated PBT
+income_statement,current_tax,Current corporate income tax,group,VND bn,1916.998192442,1922.927614658,fpt_ar_2025,169,Presented as a positive expense for analysis
+income_statement,deferred_tax,Deferred corporate income tax,group,VND bn,-105.704809379,-280.683727283,fpt_ar_2025,169,Negative value is a tax credit
+income_statement,profit_after_tax,Profit after tax,group,VND bn,11232.339450734,9427.422530444,fpt_ar_2025,170,Audited consolidated PAT
+income_statement,parent_profit_after_tax,Parent profit after tax,group,VND bn,9376.127629501,7856.767812178,fpt_ar_2025,170,Attributable to shareholders of the parent company
+income_statement,nci_profit_after_tax,NCI profit after tax,group,VND bn,1856.211821233,1570.654718266,fpt_ar_2025,170,Attributable to non-controlling interests
+cash_flow,depreciation_amortisation,Depreciation and amortisation,group,VND bn,2914.178360732,2535.298475665,fpt_ar_2025,171,Includes allocation of goodwill
+cash_flow,receivables_cash_effect,Increase in receivables,group,VND bn,-2874.821969471,-1913.663012505,fpt_ar_2025,171,Signed cash-flow effect
+cash_flow,inventories_cash_effect,Increase in inventories,group,VND bn,-335.071616492,-265.267561842,fpt_ar_2025,171,Signed cash-flow effect
+cash_flow,payables_cash_effect,Increase in payables,group,VND bn,2556.427255416,2875.571263689,fpt_ar_2025,171,Signed cash-flow effect
+cash_flow,prepaids_cash_effect,Increase in prepaid expenses,group,VND bn,-595.604484389,-393.964502357,fpt_ar_2025,171,Signed cash-flow effect
+cash_flow,interest_paid,Interest paid,group,VND bn,812.474254533,607.154747076,fpt_ar_2025,171,Presented as a positive cash outflow for analysis
+cash_flow,operating_cash_flow,Net cash inflows from operating activities,group,VND bn,10136.043915911,11703.777188868,fpt_ar_2025,171,Audited operating cash flow
+cash_flow,capex_purchase,Purchases of fixed and other long-term assets,group,VND bn,5097.919349856,3275.312325702,fpt_ar_2025,171,Presented as a positive cash outflow for analysis
+balance_sheet,cash_and_equivalents,Cash and cash equivalents,group,VND bn,10522.105729992,9315.440438884,fpt_ar_2025,165,Year-end balance
+balance_sheet,short_term_investments,Short-term investments,group,VND bn,29630.986737440,21785.213686808,fpt_ar_2025,165,Held-to-maturity investments
+balance_sheet,short_term_borrowings,Short-term borrowings and finance lease liabilities,group,VND bn,19169.697497955,14446.238451323,fpt_ar_2025,167,Year-end balance
+balance_sheet,long_term_borrowings,Long-term borrowings and finance lease liabilities,group,VND bn,1903.789988184,501.115537075,fpt_ar_2025,167,Year-end balance
+balance_sheet,nci_equity,Non-controlling interests,group,VND bn,7265.096802767,5933.309621004,fpt_ar_2025,168,Year-end balance
+segment,segment_revenue,Global IT revenue,global_it,VND bn,35381.667,30952.512,fpt_ar_2025,212-213,Audited business-segment revenue
+segment,segment_revenue,Domestic IT revenue,domestic_it,VND bn,9092.934,8157.364,fpt_ar_2025,212-213,Audited business-segment revenue
+segment,segment_revenue,Telecommunication revenue,telecom,VND bn,18701.876,16905.897,fpt_ar_2025,212-213,Audited business-segment revenue
+segment,segment_revenue,Digital content revenue,digital_content,VND bn,804.839,704.503,fpt_ar_2025,212-213,Audited business-segment revenue
+segment,segment_revenue,Education investment and other revenue,education_investment_other,VND bn,7324.783,7444.159,fpt_ar_2025,212-213,Audited business-segment revenue
+segment,segment_revenue,Consolidation elimination revenue,elimination,VND bn,-1193.274,-1315.641,fpt_ar_2025,212-213,Audited consolidation elimination
+segment,segment_pbt,Global IT profit before tax,global_it,VND bn,5466.861,4769.586,fpt_ar_2025,212-213,Audited business-segment PBT
+segment,segment_pbt,Domestic IT profit before tax,domestic_it,VND bn,439.984,460.526,fpt_ar_2025,212-213,Audited business-segment PBT
+segment,segment_pbt,Telecommunication profit before tax,telecom,VND bn,4167.491,3420.133,fpt_ar_2025,212-213,Audited business-segment PBT
+operating,signed_revenue,Signed revenue global IT,global_it,VND bn,40636,,fpt_fy2025_results,14,Issuer-reported FY2025 signed revenue
+operating,signed_revenue_growth_yoy,Signed revenue growth global IT,global_it,%,0.232,,fpt_fy2025_results,14,Issuer-reported year-on-year growth
+operating,deal_count_ge_10m_usd,Deals valued at least USD 10m,global_it,count,26,,fpt_fy2025_results,14,Issuer reported twice the prior-year count
+operating,japan_revenue_growth_yoy,Japan revenue growth,global_it_japan,%,0.254,,fpt_fy2025_results,13,Issuer-reported year-on-year growth

@@ -1,0 +1,6 @@
+fiscal_year,beginning_shares_in_circulation,new_employee_or_other_shares,share_dividend_shares,ending_shares_in_circulation,weighted_average_shares_latest_observed,weighted_average_basis_filing,source_id,source_report_page,note
+2020,678276312,3391790,102237008,783905110,901425458,FY2021,fpt_ar_2021,72-74,"FY2020 weighted average includes the FY2021 15% share-dividend retrospective adjustment; it is not yet on a FY2024 common share basis"
+2021,783905110,5209768,118354395,907469273,1088929691,FY2022,fpt_ar_2022,69-73,"FY2021 weighted average is the FY2022 comparative after the FY2022 20% share-dividend adjustment"
+2022,907469273,6726641,182830658,1097026572,1260312644,FY2023,fpt_ar_2023,184-188,"FY2022 weighted average is the FY2023 comparative after the FY2023 15% share-dividend adjustment"
+2023,1097026572,7305050,165637253,1269968875,1457906309,FY2024,fpt_ar_2024,188-191,"FY2023 weighted average is the FY2024 comparative after the FY2024 15% share-dividend adjustment"
+2024,1269968875,10621117,190479191,1471069183,1462653544,FY2024,fpt_ar_2024,188-191,"Current-year FY2024 weighted average as presented"

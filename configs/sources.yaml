@@ -1,0 +1,249 @@
+research_clock: dual_clock
+historical_information_cutoff: 2025-10-31
+live_information_cutoff: 2026-10-09
+
+sources:
+  - source_id: fpt_ar_2020
+    document_type: annual_report
+    reporting_period_end: 2020-12-31
+    url: https://fpt.com/-/media/project/fpt-corporation/fpt/ir/report/tabs/annual-report/years/2020/2020/bao-cao-thuong-nien-2020-pdf/bctn-2020.pdf
+    sha256: 8b0615e03ebb021a2e5bb17e140b1e7c04032184cd300f7f6459b4e42d0b1897
+    extraction_status: downloaded_text_extracted
+    clock_a_eligible: true
+
+  - source_id: fpt_ar_2021
+    document_type: annual_report
+    reporting_period_end: 2021-12-31
+    url: https://fpt.com/api/media/ar_fpt_2021_en_cbc563965a.pdf
+    sha256: ad7c8afbfbf73e70623b9d1bada8dd69d7185cfd48d79b452ab58b7244963cc5
+    extraction_status: core_facts_extracted
+    clock_a_eligible: true
+
+  - source_id: fpt_ar_2022
+    document_type: annual_report
+    reporting_period_end: 2022-12-31
+    url: https://fpt.com/-/media/project/fpt-corporation/fpt/ir/report/tabs/annual-report/years/2022/arfpt-2022.pdf
+    sha256: 3ba9c4f13d4a196c6c9751b307e810aa5648651a84215dfe96f48111ac6d65cd
+    extraction_status: core_facts_extracted
+    clock_a_eligible: true
+
+  - source_id: fpt_ar_2023
+    document_type: annual_report
+    reporting_period_end: 2023-12-31
+    url: https://fpt.com/-/media/project/fpt-corporation/fpt/ir/general-meetings-of-shareholders/monthly-report/2024/annual-report-fpt-2023-en.pdf
+    sha256: ff9315e1da78ccd4cfca9b75cc12946c73a761e125bfa512aeedf6417fda796c
+    extraction_status: core_facts_extracted
+    clock_a_eligible: true
+
+  - source_id: fpt_ar_2024
+    document_type: annual_report
+    reporting_period_end: 2024-12-31
+    url: https://fpt.com/-/media/project/fpt-corporation/fpt/ir/general-meetings-of-shareholders/fpt_annual_report_2024.pdf
+    sha256: fa791cffcea5e14e287af9df36f4ac8b5dd8a21c4a13be46495b30a56e3ee1c4
+    extraction_status: core_facts_extracted_visually_checked
+    clock_a_eligible: true
+
+  - source_id: fpt_earnings_9m2025
+    document_type: earnings_report
+    reporting_period_end: 2025-09-30
+    url: https://fpt.com/-/media/project/fpt-corporation/fpt/ir/information-disclosures/year-report/2025/october/fpt_earnings-report-9m2025.pdf
+    sha256: 27802e9d82e0f4d7f396693d5b26087a2847bcd3e2e82beef0f27a35f6b983f1
+    extraction_status: operating_facts_extracted_visually_checked
+    clock_a_eligible: true
+
+  - source_id: fpt_q3_2025_fs
+    document_type: consolidated_financial_statements
+    reporting_period_end: 2025-09-30
+    published_at: 2025-10-23
+    url: https://file.fpts.com.vn/FileStore2/File/2025/10/24/20251023_-_FPT_-_BCTC_hop_nhat_Quy_3_2025.pdf
+    sha256: fe01af2c48c75482f1e3af43cc6294fa8b44ff2f0b113798285b30c03616d162
+    extraction_status: balance_sheet_visually_checked
+    clock_a_eligible: true
+
+  - source_id: ssc_gov_bond_oct2025
+    document_type: market_statistics
+    reporting_period_end: 2025-10-31
+    url: https://ssc.gov.vn/webcenter/portal/ssc/pages_r/l/chitit?dDocName=APPSSCGOVVN1620160814
+    extraction_status: ten_year_yield_extracted
+    clock_a_eligible: true
+
+  - source_id: yuanta_fpt_20250903
+    document_type: broker_research
+    reporting_period_end: 2025-09-03
+    url: https://yuanta.com.vn/wp-content/uploads/2025/09/20250903-FPT-update-VN.pdf
+    extraction_status: beta_assumption_extracted
+    clock_a_eligible: true
+
+  - source_id: damodaran_erp_2025
+    document_type: country_risk_dataset
+    reporting_period_end: 2025-01-09
+    url: https://pages.stern.nyu.edu/~adamodar/New_Home_Page/dataarchived.html
+    extraction_status: methodology_reviewed_erp_cross_checked
+    clock_a_eligible: true
+
+  - source_id: vietcap_fpt_20251022
+    document_type: broker_research
+    reporting_period_end: 2025-10-22
+    data_as_of: 2025-10-21
+    url: https://www.vietcap.com.vn/api/cms-api/uploads/file/202510/FPT-20251022-BUY.pdf
+    extraction_status: peer_table_extracted
+    clock_a_eligible: true
+    usage_scope: global_it_telecom_peer_multiples_and_fpt_market_reference
+
+  - source_id: vietcap_fpt_20250814
+    document_type: broker_research
+    reporting_period_end: 2025-08-14
+    data_as_of: 2025-08-12
+    url: https://www.vietcap.com.vn/api/cms-api/uploads/file/202508/FPT-20250814-OP.pdf
+    extraction_status: education_peer_table_extracted
+    clock_a_eligible: true
+    usage_scope: education_peer_multiples
+
+  - source_id: kbsv_fpt_20250911
+    document_type: broker_research
+    reporting_period_end: 2025-09-11
+    url: https://www.kbsec.com.vn/pic/Service/KBSV_FPT_2Q25Update_Eng.pdf
+    extraction_status: valuation_method_reviewed
+    clock_a_eligible: true
+    usage_scope: external_target_and_method_cross_check
+
+  - source_id: acbs_fpt_20251028
+    document_type: broker_research
+    reporting_period_end: 2025-10-28
+    url: https://acbs.com.vn/acbsmedia/2025/10/FPT-by-ACBS_Update_Oct-28th-2025.pdf
+    extraction_status: forecast_and_target_reviewed
+    clock_a_eligible: true
+    usage_scope: external_target_cross_check
+
+  - source_id: ssi_hsx_price_history
+    document_type: historical_market_price
+    reporting_period_end: 2025-10-31
+    url: https://www.ssi.com.vn/upload/files/KHCN/Phat-trien-san-pham/Covered%20Warrant/2026/03.06.2026/FPT3M-1/FPT%203M-1%20ENG.pdf
+    extraction_status: historical_price_only
+    clock_a_eligible: false
+    usage_scope: historical_price_verification_only
+    note: Later publication reproduces the 31-Oct-2025 closing price and identifies HOSE as the source; it is not used for operating forecasts.
+
+  - source_id: vndirect_finfo_stock_prices
+    document_type: historical_market_price_api
+    reporting_period_end: 2025-10-31
+    url: https://api-finfo.vndirect.com.vn/v4/stock_prices?q=code:FPT~date:gte:2020-01-01~date:lte:2025-10-31&sort=date&size=2000&page=1
+    extraction_status: month_end_sample_derived
+    clock_a_eligible: price_only
+    usage_scope: historical_price_context_only
+    note: Provider-adjusted closes are rebased so the 31-Oct-2025 adjusted close equals the raw close, neutralising uniform post-cutoff backward adjustments.
+
+  - source_id: shs_fpt_initial_202505
+    document_type: broker_research
+    reporting_period_end: 2025-05-20
+    url: https://shs.com.vn/Sites/QuoteVN/SiteRoot/reportattach/20250521_94646_FPT%20Intitial%20Report%202025%20Eng%20Ver.pdf
+    extraction_status: historical_pe_chart_visually_reviewed
+    clock_a_eligible: true
+    usage_scope: approximate_long_run_pe_bands_only
+    note: SHS / FiinProX Jan-2014 to Jan-2025 P/E chart; mean and standard-deviation levels are approximate chart reads.
+
+  - source_id: fpt_ar_2025
+    document_type: annual_report
+    reporting_period_end: 2025-12-31
+    published_at: 2026-04-08
+    available_at: 2026-04-08
+    url: https://bctn2025.fpt.com/wp-content/uploads/2026/04/Annual-Report-2025.pdf
+    sha256: b70dafda95122ee759873e6be83026a2af79903164aceb26ef21033945a87e2a
+    extraction_status: audited_actuals_extracted_and_reconciled
+    clock_a_eligible: false
+    usage_scope: fy2025_backtest_only
+
+  - source_id: fpt_fy2025_results
+    document_type: earnings_release
+    reporting_period_end: 2025-12-31
+    published_at: 2026-01-26
+    available_at: 2026-01-26
+    url: https://fpt.com/en/news/fpts-profit-before-tax-of-vnd-13039-billion-representing-yoy-growth-of-178
+    extraction_status: operating_facts_extracted
+    clock_a_eligible: false
+    usage_scope: fy2025_backtest_only
+
+  - source_id: fpt_h1_2026_reviewed_fs
+    document_type: reviewed_consolidated_interim_financial_statements
+    reporting_period_end: 2026-06-30
+    published_at: 2026-08-21
+    available_at: 2026-08-21
+    url: https://fpt.com/api/media/20260821_FPT_Reviewed_Consolidated_Interim_Financial_Statements_1_6156ffa4e7.pdf
+    sha256: eec866e9740cc4a6fd4bce01004abb6dca18be7a993206a9cf83a8b026c663b2e
+    extraction_status: key_statements_visually_extracted_and_checked
+    clock_a_eligible: false
+    usage_scope: clock_b_actuals_balance_sheet_cash_flow_and_accounting_basis
+
+  - source_id: fpt_h1_2026_results
+    document_type: earnings_release
+    reporting_period_end: 2026-06-30
+    published_at: 2026-07-16
+    available_at: 2026-07-16
+    url: https://fpt.com/vi/tin-tuc/6-thang-dau-nam-2026-loi-nhuan-truoc-thue-cua-fpt-tang-truong-18-1
+    extraction_status: operating_facts_extracted
+    clock_a_eligible: false
+    usage_scope: clock_b_operating_kpis_and_signed_revenue
+
+  - source_id: fpt_8m_2026_operating_update
+    document_type: operating_update
+    reporting_period_end: 2026-08-31
+    published_at: 2026-10-03
+    available_at: 2026-10-03
+    url: https://fpt.com/en/news/minister-of-science-and-technology-trust-and-credibility-have-driven-fpt-s-success-in-japan
+    extraction_status: revenue_and_profit_growth_extracted
+    clock_a_eligible: false
+    usage_scope: clock_b_2026_revenue_and_pbt_anchor
+
+  - source_id: fpt_shares_20260925
+    document_type: outstanding_share_notice
+    reporting_period_end: 2026-09-25
+    published_at: 2026-09-25
+    available_at: 2026-09-25
+    url: https://fpt.com/api/media/20260925_FPT_TB_thay_doi_SLCP_dang_luu_hanh_sau_phat_hanh_CP_de_tang_von_51d7ab9f5c.pdf
+    sha256: a101b25206828a3a1106be73f9eaca4b041a73815b9123bfb03f496509d923be
+    extraction_status: outstanding_shares_visually_checked
+    clock_a_eligible: false
+    usage_scope: clock_b_per_share_valuation
+
+  - source_id: fpt_telecom_method_change_20260318
+    document_type: accounting_method_disclosure
+    reporting_period_end: 2026-01-01
+    published_at: 2026-03-18
+    available_at: 2026-03-18
+    url: https://fpt.com/api/media/20260318_FPT_Information_disclosure_on_change_in_consolidation_method_for_FPT_Telecom_31ac6f49ef.pdf
+    sha256: 049ad0f03f7c2a9e69d4b5b1d84393ca8f9bb39426f4b2f37607554fb25e8861
+    extraction_status: accounting_basis_visually_checked
+    clock_a_eligible: false
+    usage_scope: clock_b_sum_of_parts_design
+
+  - source_id: hnx_gov_bond_sep2026
+    document_type: market_statistics
+    reporting_period_end: 2026-09-30
+    published_at: 2026-10-09
+    available_at: 2026-10-09
+    url: https://www.old.hnx.vn/vi-vn/trung-tam-truyen-thong/chi-tiet-tin-bc-60023583-0.html
+    extraction_status: ten_year_auction_and_secondary_yield_reviewed
+    clock_a_eligible: false
+    usage_scope: clock_b_risk_free_rate_cross_check
+
+  - source_id: investing_vietnam_10y_20261009
+    document_type: government_bond_yield_snapshot
+    reporting_period_end: 2026-10-09
+    url: https://www.investing.com/rates-bonds/vietnam-10-year-bond-yield-historical-data
+    extraction_status: closing_yield_extracted
+    clock_a_eligible: false
+    usage_scope: clock_b_risk_free_rate
+
+  - source_id: vndirect_market_snapshot_20261009
+    document_type: market_price_snapshot
+    reporting_period_end: 2026-10-09
+    url: https://taichinh.com/chung-khoan/fpt
+    extraction_status: price_market_cap_and_trailing_multiple_extracted
+    clock_a_eligible: false
+    usage_scope: clock_b_market_price_and_market_capitalisation
+
+controls:
+  require_published_at_before_use: true
+  prohibit_post_cutoff_features: true
+  preserve_source_snapshot_checksum: true
+  do_not_commit_licensed_market_data: true

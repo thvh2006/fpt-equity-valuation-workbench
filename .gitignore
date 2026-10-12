@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.venv/
+venv/
+~$*
+*.inspect.ndjson
+reports/rendered/

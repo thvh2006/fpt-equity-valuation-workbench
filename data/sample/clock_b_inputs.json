@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "company": "FPT Corporation",
+    "ticker": "FPT",
+    "exchange": "HOSE",
+    "valuation_date": "2026-10-09",
+    "currency": "VND",
+    "financial_unit": "VND billion",
+    "accounting_basis": "Continuing consolidated operations plus equity-accounted associates"
+  },
+  "actuals": {
+    "market_price": 57900.0,
+    "shares_outstanding_million": 1885.727648,
+    "cash": 8843.161,
+    "short_term_investments": 20128.418,
+    "debt": 18449.528,
+    "non_controlling_interests": 1144.217,
+    "revenue_2025_comparable": 46794.71365638766,
+    "revenue_2026_anchor": 53112.0,
+    "associate_profit_2026": 2846.796
+  },
+  "cost_of_capital": {
+    "risk_free_rate": 0.0458,
+    "equity_risk_premium": 0.0835,
+    "levered_beta": 0.9,
+    "pre_tax_cost_of_debt": 0.0425,
+    "tax_rate": 0.12
+  },
+  "valuation": {
+    "explicit_years": [2027, 2028, 2029, 2030, 2031],
+    "discount_timings": [0.72, 1.72, 2.72, 3.72, 4.72],
+    "terminal_timing": 5.22,
+    "sotp_weight": 0.6,
+    "pe_weight": 0.4
+  },
+  "scenarios": {
+    "base": {
+      "revenue_growth": [0.135, 0.13, 0.12, 0.11, 0.10, 0.09],
+      "ebit_margin": [0.1477, 0.151, 0.155, 0.158, 0.161, 0.163],
+      "da_to_revenue": [0.032, 0.032, 0.031, 0.031, 0.030, 0.030],
+      "capex_to_revenue": [0.052, 0.050, 0.048, 0.047, 0.046, 0.045],
+      "nwc_to_incremental_revenue": [0.15, 0.05, 0.05, 0.05, 0.05, 0.05],
+      "associate_profit_growth": [0.0, 0.10, 0.09, 0.08, 0.07, 0.06],
+      "net_financial_income_to_revenue": [0.012, 0.011, 0.010, 0.009, 0.008, 0.007],
+      "wacc_adjustment": 0.0,
+      "terminal_growth": 0.04,
+      "associate_multiple": 14.0,
+      "pe_multiple": 15.0
+    },
+    "downside": {
+      "revenue_growth": [0.135, 0.09, 0.08, 0.07, 0.06, 0.05],
+      "ebit_margin": [0.1477, 0.142, 0.143, 0.144, 0.145, 0.146],
+      "da_to_revenue": [0.032, 0.032, 0.032, 0.031, 0.031, 0.031],
+      "capex_to_revenue": [0.052, 0.057, 0.056, 0.055, 0.054, 0.053],
+      "nwc_to_incremental_revenue": [0.20, 0.10, 0.10, 0.10, 0.10, 0.10],
+      "associate_profit_growth": [0.0, 0.05, 0.05, 0.04, 0.04, 0.03],
+      "net_financial_income_to_revenue": [0.010, 0.008, 0.006, 0.004, 0.003, 0.002],
+      "wacc_adjustment": 0.01,
+      "terminal_growth": 0.03,
+      "associate_multiple": 11.0,
+      "pe_multiple": 12.0
+    },
+    "upside": {
+      "revenue_growth": [0.135, 0.16, 0.15, 0.14, 0.13, 0.12],
+      "ebit_margin": [0.1477, 0.155, 0.160, 0.165, 0.170, 0.175],
+      "da_to_revenue": [0.032, 0.031, 0.030, 0.030, 0.029, 0.029],
+      "capex_to_revenue": [0.052, 0.047, 0.045, 0.044, 0.043, 0.042],
+      "nwc_to_incremental_revenue": [0.10, 0.03, 0.03, 0.03, 0.03, 0.03],
+      "associate_profit_growth": [0.0, 0.13, 0.12, 0.11, 0.10, 0.09],
+      "net_financial_income_to_revenue": [0.014, 0.013, 0.012, 0.011, 0.010, 0.009],
+      "wacc_adjustment": -0.0075,
+      "terminal_growth": 0.045,
+      "associate_multiple": 17.0,
+      "pe_multiple": 18.0
+    }
+  },
+  "earnings": {
+    "parent_pat_to_pbt": 0.88
+  }
+}

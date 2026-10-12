@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fpt-equity-valuation-workbench"
+version = "1.0.0"
+description = "Point-in-time equity research and valuation workbench for FPT Corporation"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Portfolio Research Project"}]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

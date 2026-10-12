@@ -1,0 +1,10 @@
+source_id,filing_year,observation_year,basic_eps_vnd,diluted_eps_vnd,presentation,source_pdf_page,note
+fpt_ar_2021,2021,2020,3579,3579,comparative,74,"as reclassified in 2021 filing"
+fpt_ar_2021,2021,2021,4349,4349,current_year,74,"as presented"
+fpt_ar_2022,2022,2021,3618,3618,comparative,73,"comparative EPS differs from prior filing due to per-share restatement effects"
+fpt_ar_2022,2022,2022,4429,4429,current_year,73,"as presented"
+fpt_ar_2023,2023,2022,3847,3847,comparative,149,"comparative EPS differs from prior filing"
+fpt_ar_2023,2023,2023,4661,4661,current_year,149,"as presented"
+fpt_ar_2024,2024,2023,4052,4052,comparative,152,"comparative EPS differs from prior filing"
+fpt_ar_2024,2024,2024,4944,4944,current_year,152,"as presented"
+
