@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">FPT Clock B assumption dashboard</title>
+  <desc id="desc">Base assumptions from 2026 to 2031, cost of capital inputs, scenario fair values and the primary cash-conversion risk.</desc>
+  <rect width="1400" height="820" fill="#f7f9fc"/>
+  <rect x="0" y="0" width="1400" height="106" fill="#17365d"/>
+  <text x="64" y="54" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="700">FPT Clock B Assumption Dashboard</text>
+  <text x="64" y="84" fill="#d9eaf7" font-family="Arial, sans-serif" font-size="17">Valuation date 9 October 2026 · VND billion except per-share data</text>
+
+  <text x="64" y="151" fill="#17365d" font-family="Arial, sans-serif" font-size="22" font-weight="700">Operating path</text>
+  <rect x="64" y="172" width="810" height="285" rx="10" fill="#ffffff" stroke="#d8e0ea"/>
+  <rect x="64" y="172" width="810" height="52" rx="10" fill="#eaf2f9"/>
+  <text x="88" y="205" fill="#17365d" font-family="Arial, sans-serif" font-size="16" font-weight="700">Driver</text>
+  <text x="435" y="205" fill="#17365d" font-family="Arial, sans-serif" font-size="16" font-weight="700">2026E</text>
+  <text x="595" y="205" fill="#17365d" font-family="Arial, sans-serif" font-size="16" font-weight="700">2031E</text>
+  <text x="735" y="205" fill="#17365d" font-family="Arial, sans-serif" font-size="16" font-weight="700">Direction</text>
+  <g font-family="Arial, sans-serif" font-size="17" fill="#26384a">
+    <text x="88" y="258">Revenue growth</text><text x="435" y="258">13.5%</text><text x="595" y="258">9.0%</text><text x="735" y="258" fill="#667788">Gradual fade</text>
+    <text x="88" y="307">EBIT margin</text><text x="435" y="307">14.8%</text><text x="595" y="307">16.3%</text><text x="735" y="307" fill="#2e7d32">Recovery</text>
+    <text x="88" y="356">Capex / revenue</text><text x="435" y="356">5.2%</text><text x="595" y="356">4.5%</text><text x="735" y="356" fill="#667788">Normalisation</text>
+    <text x="88" y="405">NWC / incremental revenue</text><text x="435" y="405">15.0%</text><text x="595" y="405">5.0%</text><text x="735" y="405" fill="#c62828">Key uncertainty</text>
+  </g>
+  <g stroke="#e2e7ee"><line x1="84" y1="273" x2="852" y2="273"/><line x1="84" y1="322" x2="852" y2="322"/><line x1="84" y1="371" x2="852" y2="371"/></g>
+
+  <text x="914" y="151" fill="#17365d" font-family="Arial, sans-serif" font-size="22" font-weight="700">Valuation inputs</text>
+  <rect x="914" y="172" width="422" height="285" rx="10" fill="#ffffff" stroke="#d8e0ea"/>
+  <g font-family="Arial, sans-serif">
+    <text x="944" y="218" fill="#667788" font-size="15">WACC</text><text x="1248" y="218" fill="#17365d" font-size="22" font-weight="700" text-anchor="end">10.89%</text>
+    <text x="944" y="274" fill="#667788" font-size="15">Terminal growth</text><text x="1248" y="274" fill="#17365d" font-size="22" font-weight="700" text-anchor="end">4.00%</text>
+    <text x="944" y="330" fill="#667788" font-size="15">Associate multiple</text><text x="1248" y="330" fill="#17365d" font-size="22" font-weight="700" text-anchor="end">14.0x</text>
+    <text x="944" y="386" fill="#667788" font-size="15">2027E P/E</text><text x="1248" y="386" fill="#17365d" font-size="22" font-weight="700" text-anchor="end">15.0x</text>
+    <text x="944" y="432" fill="#667788" font-size="14">60% SOTP · 40% earnings cross-check</text>
+  </g>
+  <g stroke="#e2e7ee"><line x1="944" y1="238" x2="1306" y2="238"/><line x1="944" y1="294" x2="1306" y2="294"/><line x1="944" y1="350" x2="1306" y2="350"/></g>
+
+  <text x="64" y="510" fill="#17365d" font-family="Arial, sans-serif" font-size="22" font-weight="700">Scenario value per share</text>
+  <rect x="64" y="531" width="1272" height="179" rx="10" fill="#ffffff" stroke="#d8e0ea"/>
+  <line x1="143" y1="671" x2="1260" y2="671" stroke="#cbd5df" stroke-width="2"/>
+  <rect x="222" y="604" width="210" height="67" fill="#c62828"/><text x="327" y="590" text-anchor="middle" fill="#c62828" font-family="Arial, sans-serif" font-size="21" font-weight="700">VND62.6k</text><text x="327" y="699" text-anchor="middle" fill="#4c5d6d" font-family="Arial, sans-serif" font-size="16">Downside</text>
+  <rect x="596" y="570" width="210" height="101" fill="#17365d"/><text x="701" y="556" text-anchor="middle" fill="#17365d" font-family="Arial, sans-serif" font-size="21" font-weight="700">VND94.5k</text><text x="701" y="699" text-anchor="middle" fill="#4c5d6d" font-family="Arial, sans-serif" font-size="16">Base</text>
+  <rect x="970" y="535" width="210" height="136" fill="#548235"/><text x="1075" y="521" text-anchor="middle" fill="#548235" font-family="Arial, sans-serif" font-size="21" font-weight="700">VND128.6k</text><text x="1075" y="699" text-anchor="middle" fill="#4c5d6d" font-family="Arial, sans-serif" font-size="16">Upside</text>
+  <line x1="143" y1="624" x2="1260" y2="624" stroke="#7f8c8d" stroke-width="3"/><text x="1245" y="614" text-anchor="end" fill="#667788" font-family="Arial, sans-serif" font-size="15">Market VND57.9k</text>
+
+  <rect x="64" y="744" width="1272" height="48" rx="8" fill="#fff2f2"/>
+  <circle cx="92" cy="768" r="8" fill="#c62828"/>
+  <text x="112" y="774" fill="#7f1d1d" font-family="Arial, sans-serif" font-size="17" font-weight="700">Primary evidence gate</text>
+  <text x="330" y="774" fill="#7f1d1d" font-family="Arial, sans-serif" font-size="17">FY2026 operating cash flow must show a substantial H2 working-capital reversal before adding exposure.</text>
+</svg>

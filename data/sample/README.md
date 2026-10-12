@@ -54,13 +54,17 @@ Because a current adjusted-price series can incorporate corporate actions after 
 
 This removes uniform backward adjustments introduced after the cutoff while retaining pre-cutoff corporate-action continuity. It is a price-history control, not a total-return series.
 
+### `investment_outcomes.csv`
+
+Versioned decision-outcome ledger beginning at the Clock B market date. It separates the original valuation call from later price and benchmark observations, so the thesis can be evaluated without hindsight edits. Append observations with `scripts/update_investment_outcome.py`; do not overwrite the starting row.
+
 ## Status
 
 - Extraction: manual-assisted from page-preserving PDF text.
 - Visual verification: FY2024 and FY2025 audited statements plus key 9M2025 slides completed.
 - Arithmetic validation: automated checks in `tests/test_reported_data.py`.
-- Normalization: not yet applied.
-- Investment conclusion: none.
+- Normalization: controlled in the valuation workbook; reported source files remain immutable.
+- Investment conclusion: recorded at Clock B and tracked separately in `investment_outcomes.csv`.
 
 ## Known limitations
 

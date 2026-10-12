@@ -43,7 +43,7 @@ governance:
   record_thesis_changes: true
   thesis_monitor_enabled: true
   thesis_monitor_refresh_frequency: quarterly
-  clock_a_frozen_artifact: reports/fpt_equity_valuation_v0_6.xlsx
+  clock_a_frozen_artifact: reports/archive/fpt_equity_valuation_v0_6.xlsx
   clock_a_sha256: 0cb2a73e4f6cef7b842821149e36340d6c4cdc377d03a148ee88322f1d37da25
   post_cutoff_actuals_feed_forecast: false
   clock_b_artifact: reports/fpt_equity_valuation_v0_8.xlsx
@@ -52,6 +52,9 @@ governance:
   clock_b_report_pdf_sha256: 4b3202c2f8c82fde6c352bb023f7836a20105327f4503ef286c3a894a6ea730b
   clock_b_accounting_basis: fpt_telecom_equity_method
   clock_b_market_date: 2026-10-09
+  model_card: docs/MODEL_CARD.md
+  investment_outcome_log: data/sample/investment_outcomes.csv
+  live_source_monitor: .github/workflows/live-monitor.yml
 
 backtest:
   actual_period: FY2025

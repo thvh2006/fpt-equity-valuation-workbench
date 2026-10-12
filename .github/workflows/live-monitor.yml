@@ -1,0 +1,38 @@
+name: live-source-monitor
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 2 * * 1"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  source-monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Check live research sources
+        id: monitor
+        continue-on-error: true
+        run: |
+          python scripts/check_live_sources.py --fail-on-change
+      - name: Upload source-status snapshot
+        uses: actions/upload-artifact@v7
+        with:
+          name: live-source-status
+          path: reports/live_source_status.json
+      - name: Open one review issue when evidence changes
+        if: steps.monitor.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          existing=$(gh issue list --state open --search 'Live source change detected in:title' --json number --jq 'length')
+          if [ "$existing" = "0" ]; then
+            gh issue create --title "Live source change detected" --body "The scheduled source monitor detected changed or unavailable research evidence. Download the live-source-status artifact, verify the disclosure, then decide whether Clock B requires a new research cutoff."
+          fi

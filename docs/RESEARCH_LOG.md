@@ -215,7 +215,7 @@ Draft the Clock B research update note, explain the valuation delta versus Clock
 
 ### Quality gates
 
-- All 15 reported-data, accounting, cash-flow and valuation checks passed.
+- All 19 reported-data, accounting, cash-flow, valuation and release-governance checks passed after the portfolio polish.
 - The Base Python output matches workbook v0.8 to less than VND0.1 per share on SOTP, P/E and blended value.
 - All eight report pages were rendered and visually inspected.
 - The document accessibility audit reported zero high, medium or low findings.
@@ -224,3 +224,17 @@ Draft the Clock B research update note, explain the valuation delta versus Clock
 ### Release decision
 
 Mark Clock B as portfolio-ready. The next research update should occur after FY2026 cash-flow disclosure; no pre-emptive refresh is required.
+
+## 2026-10-12 — Portfolio polish and monitoring layer
+
+### Changes
+
+- Rebuilt the README as a three-minute reviewer path with visible valuation and assumption previews.
+- Added a model card covering intended use, data clocks, calculation sequence, controls and limitations.
+- Added a versioned investment-outcome ledger without claiming performance before evidence exists.
+- Added a weekly official-source monitor and machine-readable status artifact.
+- Moved superseded workbooks to `reports/archive/`; v0.8 is the sole primary workbook.
+
+### Governance decision
+
+Automation may detect new evidence and open a review issue, but it may not silently rewrite forecasts or change the recommendation. Investment outcomes remain `OPEN_EVIDENCE_PENDING` until the six- and twelve-month review dates.

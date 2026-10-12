@@ -11,6 +11,27 @@ python scripts/run_checks.py
 
 The first command reads `data/sample/clock_b_inputs.json` and writes `reports/clock_b_summary.json`. The second runs historical-data integrity checks and Clock B valuation tests.
 
+## Check official-source freshness
+
+```bash
+python scripts/check_live_sources.py --fail-on-change
+```
+
+This compares normalized visible text from the registered official FPT pages with versioned SHA-256 baselines. A changed source is a review trigger, not an automatic recommendation change.
+
+## Append an investment-outcome observation
+
+```bash
+python scripts/update_investment_outcome.py \
+  --date 2027-04-09 \
+  --fpt-price 0 \
+  --vnindex 0 \
+  --status OPEN_EVIDENCE_PENDING \
+  --note "Replace zeros with observed market values"
+```
+
+The command appends a row and calculates absolute and benchmark-relative returns from the original Clock B decision point. Never revise the starting observation with hindsight.
+
 ## Expected Base result
 
 - WACC: 10.8873%

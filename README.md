@@ -2,7 +2,24 @@
 
 Point-in-time equity research on FPT Corporation (HOSE: FPT), built to demonstrate senior-level financial analysis, valuation judgement, model governance and decision monitoring in a Vietnam-market context.
 
+[![quality](https://github.com/thvh2006/fpt-equity-valuation-workbench/actions/workflows/quality.yml/badge.svg)](https://github.com/thvh2006/fpt-equity-valuation-workbench/actions/workflows/quality.yml)
+[![live source monitor](https://github.com/thvh2006/fpt-equity-valuation-workbench/actions/workflows/live-monitor.yml/badge.svg)](https://github.com/thvh2006/fpt-equity-valuation-workbench/actions/workflows/live-monitor.yml)
+
 This is portfolio research, not investment advice.
+
+![Clock B valuation cross-check](assets/readme/valuation-crosscheck.png)
+
+## Three-minute review
+
+If you only have three minutes:
+
+1. **Decision:** Base fair value is VND94,498 versus a VND57,900 market price, but the rating is high risk.
+2. **Variant view:** disclosed demand indicators imply a less severe slowdown than the observed trailing multiple suggests.
+3. **Accounting judgement:** FPT Telecom moved to the equity method, so Clock B uses an operating DCF plus separately capitalised associate earnings.
+4. **Falsification test:** do not add exposure unless FY2026 operating cash flow shows a substantial second-half working-capital reversal.
+5. **Audit trail:** the Python engine reproduces Excel, 19 checks pass, and Clock A remains frozen for backtesting.
+
+Open the [eight-page decision report](reports/fpt_equity_update_report_clock_b_v1_0.pdf), the [live workbook](reports/fpt_equity_valuation_v0_8.xlsx), or the [model card](docs/MODEL_CARD.md).
 
 ## Decision snapshot
 
@@ -32,7 +49,8 @@ The investment conclusion is deliberately conditional: the valuation gap support
 2. Review the [Clock B workbook](reports/fpt_equity_valuation_v0_8.xlsx), especially `Clock B Summary`, `Clock B Assumptions`, `Clock B Valuation`, `Clock B Monitor` and `Checks`.
 3. Read the concise [investment-committee memo](docs/CLOCK_B_IC_MEMO.md).
 4. Inspect [reproducibility instructions](REPRODUCIBILITY.md) and run the independent model.
-5. Use Clock A only to assess historical process discipline and forecast error.
+5. Review the [investment outcome log](docs/INVESTMENT_OUTCOME.md) and live evidence policy.
+6. Use Clock A only to assess historical process discipline and forecast error.
 
 ## Reproduce the analysis
 
@@ -43,7 +61,7 @@ python scripts/run_clock_b.py
 python scripts/run_checks.py
 ```
 
-Expected Base result: VND94,498 blended value, 63.2% upside and a mechanical BUY. The second command runs 15 data-integrity, accounting, cash-flow and valuation checks.
+Expected Base result: VND94,498 blended value, 63.2% upside and a mechanical BUY. The second command runs 19 data-integrity, accounting, cash-flow, valuation and release-governance checks.
 
 ## Deliverables
 
@@ -58,10 +76,10 @@ Expected Base result: VND94,498 blended value, 63.2% upside and a mechanical BUY
 
 ### Clock A historical process
 
-- `reports/fpt_equity_valuation_v0_7.xlsx` — frozen Clock A plus FY2025 post mortem.
+- `reports/archive/fpt_equity_valuation_v0_7.xlsx` — frozen Clock A plus FY2025 post mortem.
 - `reports/fpt_equity_initiation_report_clock_a_v1_0.pdf` — ten-page historical initiation report.
 - `reports/fpt_equity_initiation_report_clock_a_v1_0.docx` — editable report source.
-- Prior workbook versions preserve the build from extracted actuals through forecast, DCF, comparable valuation, historical context and thesis monitor.
+- `reports/archive/` — prior workbook versions retained for audit history without cluttering the primary deliverables.
 
 ### Research governance
 
@@ -69,6 +87,8 @@ Expected Base result: VND94,498 blended value, 63.2% upside and a mechanical BUY
 - `docs/RESEARCH_LOG.md` — chronological research decisions.
 - `docs/FORECAST_BACKTEST_NOTE.md` — anti-leakage design and FY2025 error attribution.
 - `docs/DATA_MODEL.md` — analytical data design.
+- `docs/MODEL_CARD.md` — intended use, calculation sequence, scenario governance and limitations.
+- `docs/INVESTMENT_OUTCOME.md` — price, benchmark, valuation-gap and thesis-outcome protocol.
 - `tests/` — reported-data and valuation checks.
 
 ## Valuation architecture
@@ -77,11 +97,37 @@ Clock B values continuing consolidated operations with FCFF, capitalises 2027E a
 
 Base WACC is 10.89% and terminal growth is 4.0%. Explicit FCFF covers 2027E–2031E with mid-year discounting. Associate book value is shown for reference but not added to equity value because earnings are already capitalised.
 
+![Clock B assumption dashboard](assets/readme/assumption-dashboard.svg)
+
 ## Primary risk and falsification rule
 
 H1 operating cash flow was negative VND1.15tn while parent net profit was VND5.05tn. Cash conversion is the only red quantitative indicator and the key evidence required to confirm the thesis.
 
 Re-underwrite if revenue growth falls below 10%, EBIT margin falls below 14%, capex exceeds 6.5% of revenue, or two live indicators become red. Do not increase exposure before FY2026 operating cash flow shows a substantial second-half reversal.
+
+## Investment outcome
+
+Clock B was opened on 9 October 2026. As of 12 October 2026, the observation window is too short for a meaningful performance score, so the status remains **OPEN — EVIDENCE PENDING**.
+
+`data/sample/investment_outcomes.csv` preserves the original price and fair value. `scripts/update_investment_outcome.py` appends later price, benchmark, active-return and thesis-status observations without rewriting history. Six- and twelve-month scorecards are scheduled for 9 April and 9 October 2027.
+
+## Live research loop
+
+The repository does not pretend that source changes should automatically change a recommendation. Instead, the live monitor separates detection from analyst judgement:
+
+1. GitHub Actions checks official FPT evidence every Monday and can also run manually.
+2. A normalised-content fingerprint detects changed or unavailable pages.
+3. The workflow uploads a source-status artifact and opens one review issue when evidence changes.
+4. A human reviewer verifies the disclosure, establishes a new information cutoff and reruns the model.
+5. Any changed thesis receives a new clock; historical outputs are never overwritten.
+
+Run the monitor locally with:
+
+```bash
+python scripts/check_live_sources.py --fail-on-change
+```
+
+![Clock B operating forecast](assets/readme/operating-forecast.png)
 
 ## Repository map
 
@@ -89,7 +135,9 @@ Re-underwrite if revenue growth falls below 10%, EBIT margin falls below 14%, ca
 configs/        project and source governance
 data/sample/    redistributable public-source and derived inputs
 docs/           research notes, model cards and decision memos
+assets/readme/  decision previews for a three-minute review
 reports/        selected Excel, DOCX, PDF and JSON outputs
+reports/archive historical workbook build retained for auditability
 scripts/        reproducible model runner and dependency-free checks
 src/            reusable valuation logic
 tests/          accounting, extraction and valuation assertions
