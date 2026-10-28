@@ -21,6 +21,8 @@ If you only have three minutes:
 
 Open the [eight-page decision report](reports/fpt_equity_update_report_clock_b_v1_0.pdf), the [live workbook](reports/fpt_equity_valuation_v0_8.xlsx), or the [model card](docs/MODEL_CARD.md).
 
+For an in-browser audit of the evidence chain, open the [executed valuation research walkthrough](notebooks/01_valuation_research_walkthrough.ipynb).
+
 ## Decision snapshot
 
 | Clock B at 9 October 2026 | Result |
@@ -47,10 +49,11 @@ The investment conclusion is deliberately conditional: the valuation gap support
 
 1. Read the [Clock B PDF report](reports/fpt_equity_update_report_clock_b_v1_0.pdf).
 2. Review the [Clock B workbook](reports/fpt_equity_valuation_v0_8.xlsx), especially `Clock B Summary`, `Clock B Assumptions`, `Clock B Valuation`, `Clock B Monitor` and `Checks`.
-3. Read the concise [investment-committee memo](docs/CLOCK_B_IC_MEMO.md).
-4. Inspect [reproducibility instructions](REPRODUCIBILITY.md) and run the independent model.
-5. Review the [investment outcome log](docs/INVESTMENT_OUTCOME.md) and live evidence policy.
-6. Use Clock A only to assess historical process discipline and forecast error.
+3. Inspect the [executed valuation research walkthrough](notebooks/01_valuation_research_walkthrough.ipynb) for evidence receipt, data diagnostics, charts, valuation outputs and decision limits.
+4. Read the concise [investment-committee memo](docs/CLOCK_B_IC_MEMO.md).
+5. Inspect [reproducibility instructions](REPRODUCIBILITY.md) and run the independent model.
+6. Review the [investment outcome log](docs/INVESTMENT_OUTCOME.md) and live evidence policy.
+7. Use Clock A only to assess historical process discipline and forecast error.
 
 ## Reproduce the analysis
 
