@@ -43,11 +43,30 @@ def normalised_text(payload: bytes) -> str:
     return re.sub(r"\s+", " ", " ".join(parser.parts)).strip()
 
 
-def fetch(url: str) -> tuple[int, str]:
-    request = urllib.request.Request(url, headers={"User-Agent": "FPT-equity-research-monitor/1.0"})
+def monitored_text(payload: bytes, source: dict) -> str:
+    """Limit article checks to issuer evidence, excluding rotating news and site chrome."""
+    text = normalised_text(payload)
+    start_marker = source.get("content_start")
+    end_marker = source.get("content_end")
+    if start_marker:
+        start = text.find(start_marker)
+        if start < 0:
+            raise ValueError(f"content_start marker not found: {start_marker}")
+        text = text[start:]
+    if end_marker:
+        end = text.find(end_marker)
+        if end < 0:
+            raise ValueError(f"content_end marker not found: {end_marker}")
+        text = text[:end]
+    return text.strip()
+
+
+def fetch(source: dict) -> tuple[int, str]:
+    request = urllib.request.Request(source["url"], headers={"User-Agent": "FPT-equity-research-monitor/1.0"})
     with urllib.request.urlopen(request, timeout=30) as response:
         payload = response.read()
-        return response.status, sha256(normalised_text(payload).encode("utf-8")).hexdigest()
+        evidence = monitored_text(payload, source)
+        return response.status, sha256(evidence.encode("utf-8")).hexdigest()
 
 
 def main() -> None:
@@ -61,7 +80,7 @@ def main() -> None:
     results = []
     for source in config["sources"]:
         try:
-            status, fingerprint = fetch(source["url"])
+            status, fingerprint = fetch(source)
             baseline = source.get("baseline_sha256", "")
             changed = bool(baseline) and fingerprint != baseline
             results.append({**source, "http_status": status, "current_sha256": fingerprint, "changed": changed, "error": None})

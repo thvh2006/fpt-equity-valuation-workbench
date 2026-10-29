@@ -194,6 +194,27 @@ sources:
     clock_a_eligible: false
     usage_scope: clock_b_2026_revenue_and_pbt_anchor
 
+  - source_id: fpt_9m_2026_results
+    document_type: earnings_release
+    reporting_period_end: 2026-09-30
+    published_at: 2026-10-21
+    available_at: 2026-10-21
+    url: https://fpt.com/en/news/fpt-s-9-months-2026-revenue-and-pbt-increase-12-4-and-17-0
+    extraction_status: operating_facts_extracted_and_cross_checked_to_q3_financial_statements
+    clock_a_eligible: false
+    usage_scope: clock_c_operating_growth_and_signed_revenue_review
+
+  - source_id: fpt_q3_2026_consolidated_fs
+    document_type: consolidated_financial_statements
+    reporting_period_end: 2026-09-30
+    published_at: 2026-10-28
+    available_at: 2026-10-28
+    url: https://fpt.com/api/media/20261028_FPT_Consolidated_Financial_Statements_for_Quarter_3_2026_fe84d90b8d.pdf
+    sha256: d4bbb4fd3fc1fdc93a54aeaa0a6091ac2f93f3ea893ecf61db274a34e818ed32
+    extraction_status: core_statements_visually_extracted_and_checked
+    clock_a_eligible: false
+    usage_scope: clock_c_balance_sheet_income_statement_cash_conversion_and_reinvestment_review
+
   - source_id: fpt_shares_20260925
     document_type: outstanding_share_notice
     reporting_period_end: 2026-09-25

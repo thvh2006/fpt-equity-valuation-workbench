@@ -1,23 +1,27 @@
 {
-  "checked_at_baseline": "2026-10-12",
+  "checked_at_baseline": "2026-10-29",
   "sources": [
     {
       "id": "fpt_disclosures",
       "url": "https://fpt.com/en/ir/information-disclosures",
       "purpose": "Detect changes to the issuer disclosure register",
-      "baseline_sha256": "cad92f050b85cab05bc791189f17f7b70fea1de0db5ebaeed2ab26f86462aed5"
+      "baseline_sha256": "6c07a6ca7569e425482884a6d5ecdeb73949bba7557c03b8629269f5ba295ff8"
     },
     {
       "id": "fpt_h1_2026_results",
       "url": "https://fpt.com/vi/tin-tuc/6-thang-dau-nam-2026-loi-nhuan-truoc-thue-cua-fpt-tang-truong-18-1",
       "purpose": "Check continued availability of the H1 operating evidence",
-      "baseline_sha256": "7536b7b4a92a00f1d0f7df595ac65a16765e72798741f9f7743b8314acca6532"
+      "content_start": "Kết thúc 6 tháng đầu năm 2026",
+      "content_end": "Chia sẻ bài viết",
+      "baseline_sha256": "a60e1037be8e24e11636ad8c8eed28f7487d83d57ab94bd76baf04f15454da81"
     },
     {
       "id": "fpt_8m_2026_update",
       "url": "https://fpt.com/en/news/minister-of-science-and-technology-trust-and-credibility-have-driven-fpt-s-success-in-japan",
       "purpose": "Check continued availability of the 8M operating evidence",
-      "baseline_sha256": "cb98337ee0be5121c299f3c667930b0f64f8613aaced79fedad9d1b35625c8ff"
+      "content_start": "FPT has progressively expanded collaboration",
+      "content_end": "Share this article",
+      "baseline_sha256": "b59e386e2f23fcc4312a830a31dc748b0a957f4402b9449ce566c7f99b25d9ac"
     }
   ]
 }
