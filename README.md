@@ -7,6 +7,8 @@ Point-in-time equity research on FPT Corporation (HOSE: FPT), built to demonstra
 
 This is portfolio research, not investment advice.
 
+> **Post-cutoff evidence review — 29 October 2026.** FPT's 9M2026 release and Q3 financial statements were published after the Clock B cutoff. Growth remains positive, but nine-month operating cash flow of VND0.95tn equals only 12.2% of parent profit after tax and therefore fails the model's 30% add-exposure gate. Clock B and release v1.0 remain frozen; a new fair value will not be published until Clock C completes a full re-underwrite. See the [source review](docs/CLOCK_C_SOURCE_REVIEW.md).
+
 ![Clock B valuation cross-check](assets/readme/valuation-crosscheck.png)
 
 ## Three-minute review

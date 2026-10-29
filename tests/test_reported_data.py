@@ -213,6 +213,24 @@ def test_9m2025_monitor_cash_inputs() -> None:
         assert len(values(metric, segment)) == 1
 
 
+def test_9m2026_cash_conversion_triggers_clock_c_review() -> None:
+    rows = read_csv("operating_facts_9m2026.csv")
+
+    def value(metric: str, segment: str = "group") -> float:
+        matches = [
+            float(row["value"])
+            for row in rows
+            if row["metric"] == metric and row["segment"] == segment
+        ]
+        assert len(matches) == 1, (metric, segment, matches)
+        return matches[0]
+
+    cash_conversion = value("operating_cash_flow") / value("parent_profit_after_tax")
+    assert 0.12 < cash_conversion < 0.13
+    assert cash_conversion < 0.30
+    assert value("signed_revenue", "global_it_services") > 0
+
+
 def test_fy2025_actuals_reconcile() -> None:
     rows = read_csv("fy2025_actuals.csv")
 

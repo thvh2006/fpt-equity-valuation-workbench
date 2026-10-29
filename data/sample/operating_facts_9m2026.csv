@@ -1,0 +1,13 @@
+period_end,period_type,metric,segment,value,unit,source_id,source_page,notes
+2026-09-30,YTD_9M,net_revenue,group,40022.659671,VND_billion,fpt_q3_2026_consolidated_fs,6,"12.4% YoY on issuer-restated comparable basis"
+2026-09-30,YTD_9M,profit_before_tax,group,8770.160739,VND_billion,fpt_q3_2026_consolidated_fs,6,"17.0% YoY on issuer-restated comparable basis"
+2026-09-30,YTD_9M,profit_after_tax,group,7776.442470,VND_billion,fpt_q3_2026_consolidated_fs,6,"13.7% YoY on issuer-restated comparable basis"
+2026-09-30,YTD_9M,parent_profit_after_tax,group,7778.081181,VND_billion,fpt_q3_2026_consolidated_fs,6,"Attributable to equity holders of the holding company"
+2026-09-30,YTD_9M,share_of_profit,associates_and_joint_ventures,2220.302808,VND_billion,fpt_q3_2026_consolidated_fs,6,"42.6% YoY on issuer-restated comparable basis"
+2026-09-30,YTD_9M,operating_cash_flow,group,951.977890,VND_billion,fpt_q3_2026_consolidated_fs,9,"12.24% of parent PAT; below the 30% add-exposure gate"
+2026-09-30,YTD_9M,capex_purchase,group,2028.801163,VND_billion,fpt_q3_2026_consolidated_fs,9,"Acquisition and construction of fixed and other long-term assets"
+2026-09-30,YTD_9M,revenue,technology_sector,35515,VND_billion,fpt_9m_2026_results,1,"14.8% YoY"
+2026-09-30,YTD_9M,profit_before_tax,technology_sector,5052,VND_billion,fpt_9m_2026_results,1,"16.6% YoY"
+2026-09-30,YTD_9M,revenue,global_it_services,28538,VND_billion,fpt_9m_2026_results,1,"11.6% YoY"
+2026-09-30,YTD_9M,signed_revenue,global_it_services,36137,VND_billion,fpt_9m_2026_results,1,"23.1% YoY"
+2026-09-30,YTD_9M,revenue_growth_yoy,japan,0.172,ratio,fpt_9m_2026_results,1,"25.2% in JPY terms"
