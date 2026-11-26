@@ -1,0 +1,6 @@
+claim_id,proposed_question,status,evidence_required,planned_location
+C01,Does demand evidence support the revenue forecast,conditional_forecast_published,FPT 18 Nov 10M update and segment forecast register,Report page3 and dashboard assumptions
+C02,Does cash conversion recover under explicit working-capital drivers,base_below_gate,Exact 9M CFO plus linked Q4 CFO gives 26.3 percent FY CFO to parent PAT,Report page4 and notebook03 decision cell
+C03,What valuation range follows reviewed operating assumptions,forward_values_published,Clock C JSON with explicit WACC and NCI judgement limitations,Report pages5-7 and workbook Valuation
+C04,How does associate accounting affect comparable forecasts,scope_explained,FTEL equity-method perimeter and separate associate earnings and dividends,Report pages2 and6
+C05,Does the forecast remain financeable in the downside,policy_shortfall_exposed,Debt maturities and held-deposit zero-new-facility financing policy,Report page4 and dashboard funding alert

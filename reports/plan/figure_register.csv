@@ -1,0 +1,10 @@
+figure_id,title,required_input,status
+F01,Sector and peer operating economics,Primary TCS and Infosys September quarter results,Report page9 table with comparability limits
+F02,Accounting perimeter and evidence,FTEL transition and reconciled source facts,Report page2 table
+F03,Revenue and margin drivers,Clock C segment forecasts,Report page3 table and revenue chart
+F04,Cash conversion and funding,Linked statements and Q4 stub,Report page4 table and cash debt chart
+F05,Valuation range and reverse DCF,Clock C JSON with analyst inputs,Report pages1 and7 tables
+F06,Thesis monitoring rules,Predefined analyst thresholds,Report page8 trigger table
+F07,Observed October and implied Nov-Dec,Prevaluation benchmark and rounded management update,Workbook Summary rows38-41
+F08,Deposit accrual and cash receipts,Component schedules and original filing notes,Dashboard component schedules and reported notes
+F09,Debt maturity and financing stress,Source maturity buckets and research stress output,Dashboard rollover control and stress summary CSV
