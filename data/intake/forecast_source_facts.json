@@ -1,0 +1,52 @@
+{
+  "sources": {
+    "fs": {
+      "url": "https://staticfile.hsx.vn/Uploads/UploadDocuments/2508914/20261028%20-%20FPT%20-%20BCTC%20hop%20nhat%20Quy%203%20nam%202026.pdf",
+      "published": "2026-10-28",
+      "status": "downloaded_sha256_and_visual_review"
+    },
+    "m9": {
+      "url": "https://fpt.com/en/news/fpt-s-9-months-2026-revenue-and-pbt-increase-12-4-and-17-0",
+      "published": "2026-10-21",
+      "status": "primary_web_content_reviewed"
+    },
+    "m10": {
+      "url": "https://fpt.com/en/news/fpt-s-profit-before-tax-rises-16-8-in-first-10-months-of-2026-overseas-it-services-revenue-grows-12-2",
+      "published": "2026-11-18",
+      "status": "primary_web_content_reviewed"
+    },
+    "plan": {
+      "url": "https://bctn2025.fpt.com/wp-content/uploads/2026/04/Annual-Report-2025.pdf",
+      "published": "2026-04",
+      "status": "primary_web_pdf_text_reviewed",
+      "locator": "Plan for 2026, printed p.54\u201355; investment budget is not cash capex guidance"
+    }
+  },
+  "actuals": {
+    "revenue_9m": 40022.659671369,
+    "cogs_9m": 27233.683805181,
+    "gross_profit_9m": 12788.975866188,
+    "selling_9m": 3209.266638509,
+    "admin_9m": 3679.874559932,
+    "pbt_9m": 8770.160739433,
+    "current_tax_9m": 1083.828799171,
+    "deferred_tax_9m": -90.110530089,
+    "group_pat_9m": 7776.442470351,
+    "parent_pat_9m": 7778.081180761,
+    "nci_pat_9m": -1.63871041,
+    "associate_9m": 2220.302808436,
+    "associate_q3": 796.904312086,
+    "da_9m": 1292.850889343,
+    "capex_9m": 2028.801162827,
+    "revenue_10m_rounded": 44959.0,
+    "pbt_10m_rounded": 9954.0,
+    "global_9m_rounded": 28538.0,
+    "domestic_9m_rounded": 6977.0,
+    "global_10m_rounded": 32079.0,
+    "technology_10m_rounded": 39917.0,
+    "fy26_management_revenue_target": 58580.0,
+    "fy26_management_pbt_target": 11629.0,
+    "fy26_management_investment_budget": 7200.0
+  },
+  "rounding_note": "10M web amounts rounded to nearest VND billion. Remaining-sector residual explicitly reconciles rounded segments to exact9M group sales. Management targets are benchmarks, not enforced forecasts."
+}

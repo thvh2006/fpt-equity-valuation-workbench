@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "period_start": "2026-01-01",
+  "period_end": "2026-09-30",
+  "balance_comparison": "2025-12-31",
+  "available_at": "2026-10-28",
+  "research_cutoff": "2026-11-23",
+  "unit": "VND",
+  "source_url": "https://staticfile.hsx.vn/Uploads/UploadDocuments/2508914/20261028%20-%20FPT%20-%20BCTC%20hop%20nhat%20Quy%203%20nam%202026.pdf",
+  "source_sha256": "e32a7edba4e40fd08af58587abaf8b95c9c7b70cd120c14e5f33b6153b1c9e14",
+  "status": "verified_original",
+  "forecast_integration": "historical_calibration_reference",
+  "groups": [
+    {
+      "id": "receivables",
+      "title": "Receivables decomposition",
+      "printed_page": "2\u20133, 33",
+      "rows": [
+        {
+          "id": "trade_gross",
+          "label": "Short-term trade receivables, gross",
+          "value_vnd": 10847235916673
+        },
+        {
+          "id": "vendor_advances",
+          "label": "Advances to suppliers",
+          "value_vnd": 1461744848593
+        },
+        {
+          "id": "contract_progress",
+          "label": "Contract progress receivables",
+          "value_vnd": 280491632591
+        },
+        {
+          "id": "other_short",
+          "label": "Other short-term receivables, gross",
+          "value_vnd": 821495010836
+        },
+        {
+          "id": "allowance",
+          "label": "Short-term receivable allowance",
+          "value_vnd": -346643599150
+        },
+        {
+          "id": "long_net",
+          "label": "Long-term other receivables, net",
+          "value_vnd": 566684790000
+        }
+      ],
+      "reported_total_vnd": 13631008599543,
+      "note": "Only gross trade receivables are a candidate for trade DSO. Advances, contract balances, allowances and long-term deposits require separate drivers."
+    },
+    {
+      "id": "short_investments",
+      "title": "Short-term investments, net",
+      "printed_page": "31",
+      "rows": [
+        {
+          "id": "deposit_principal",
+          "label": "Term deposit principal",
+          "value_vnd": 20878556627776
+        },
+        {
+          "id": "loans_net",
+          "label": "Loans, net",
+          "value_vnd": 58231563068
+        },
+        {
+          "id": "accrued_interest",
+          "label": "Accrued deposit and lending interest",
+          "value_vnd": 512862972132
+        },
+        {
+          "id": "other_net",
+          "label": "Other investment, net",
+          "value_vnd": 0
+        }
+      ],
+      "reported_total_vnd": 21449651162976,
+      "note": "Deposit yield must use principal and the correct time exposure. Accrued interest is not additional principal. A closing balance alone cannot establish a realised annual yield."
+    },
+    {
+      "id": "associates",
+      "title": "Associate investment roll-forward",
+      "printed_page": "32",
+      "rows": [
+        {
+          "id": "opening",
+          "label": "Opening balance, 31 Dec 2025",
+          "value_vnd": 3581128517425
+        },
+        {
+          "id": "contribution",
+          "label": "Additional contributions",
+          "value_vnd": 4721450000
+        },
+        {
+          "id": "perimeter",
+          "label": "FTEL equity-method perimeter addition",
+          "value_vnd": 5157899799701
+        },
+        {
+          "id": "profit",
+          "label": "Share of associate profit",
+          "value_vnd": 2220302808436
+        },
+        {
+          "id": "dividends",
+          "label": "Dividends received (asset reduction)",
+          "value_vnd": -215984679870
+        },
+        {
+          "id": "equity_changes",
+          "label": "Ownership and equity changes",
+          "value_vnd": 5024761343
+        }
+      ],
+      "reported_total_vnd": 10753092657035,
+      "note": "The FTEL perimeter addition is separate from earnings and cash contributions. Received dividends are not the same as equity-accounted profit."
+    },
+    {
+      "id": "short_debt",
+      "title": "Short-term debt roll-forward",
+      "printed_page": "39",
+      "rows": [
+        {
+          "id": "opening",
+          "label": "Opening balance, 31 Dec 2025",
+          "value_vnd": 19169697497955
+        },
+        {
+          "id": "increase",
+          "label": "Reported increases",
+          "value_vnd": 19481696156827
+        },
+        {
+          "id": "decrease",
+          "label": "Reported decreases",
+          "value_vnd": -16954924482110
+        },
+        {
+          "id": "fx",
+          "label": "Foreign-exchange movement",
+          "value_vnd": -20480982882
+        },
+        {
+          "id": "perimeter",
+          "label": "FTEL consolidation-method change",
+          "value_vnd": -7359517303863
+        }
+      ],
+      "reported_total_vnd": 14316470885927,
+      "note": "Increases/decreases include current-portion transfers. Do not treat every reported movement as cash drawdown or repayment. FX and perimeter changes are noncash balance movements."
+    },
+    {
+      "id": "long_debt",
+      "title": "Long-term debt roll-forward",
+      "printed_page": "39",
+      "rows": [
+        {
+          "id": "opening",
+          "label": "Opening balance, 31 Dec 2025",
+          "value_vnd": 1903789988184
+        },
+        {
+          "id": "increase",
+          "label": "Reported increases",
+          "value_vnd": 938829659360
+        },
+        {
+          "id": "decrease",
+          "label": "Transfers to current portion",
+          "value_vnd": -382477459581
+        },
+        {
+          "id": "fx",
+          "label": "Foreign-exchange movement",
+          "value_vnd": -28883501867
+        },
+        {
+          "id": "perimeter",
+          "label": "FTEL consolidation-method change",
+          "value_vnd": -151289507937
+        }
+      ],
+      "reported_total_vnd": 2279969178159,
+      "note": "Transfers to current portion are reclassifications, not cash repayments. Forecast repayment timing must be built from maturity disclosures and refinancing assumptions."
+    },
+    {
+      "id": "loan_maturity",
+      "title": "Bank-loan remaining repayment buckets",
+      "printed_page": "40",
+      "rows": [
+        {
+          "id": "within_one",
+          "label": "Within one year",
+          "value_vnd": 491980478973
+        },
+        {
+          "id": "second_year",
+          "label": "Second year",
+          "value_vnd": 932166999020
+        },
+        {
+          "id": "years_three_five",
+          "label": "Third to fifth years",
+          "value_vnd": 1347032829641
+        },
+        {
+          "id": "after_five",
+          "label": "After five years",
+          "value_vnd": 0
+        }
+      ],
+      "reported_total_vnd": 2771180307634,
+      "note": "These are remaining repayment buckets for long-term bank loans including the current portion. They do not cover revolving short-term bank loans or leases. Do not allocate the 3\u20135 year bucket without an explicit assumption."
+    },
+    {
+      "id": "cfo",
+      "title": "Reported operating cash-flow bridge, 9M 2026",
+      "printed_page": "9",
+      "rows": [
+        {
+          "id": "pbt",
+          "label": "Profit before tax",
+          "value_vnd": 8770160739433
+        },
+        {
+          "id": "da",
+          "label": "Depreciation and amortisation",
+          "value_vnd": 1292850889343
+        },
+        {
+          "id": "provisions",
+          "label": "Provisions",
+          "value_vnd": -132826077364
+        },
+        {
+          "id": "fx",
+          "label": "Unrealised FX adjustment",
+          "value_vnd": 83426151773
+        },
+        {
+          "id": "investment_profit",
+          "label": "Investment and finance profit adjustment",
+          "value_vnd": -3541026470890
+        },
+        {
+          "id": "interest_expense",
+          "label": "Borrowing expense add-back",
+          "value_vnd": 612395846030
+        },
+        {
+          "id": "receivables",
+          "label": "Receivables cash movement",
+          "value_vnd": -1533791102582
+        },
+        {
+          "id": "inventory",
+          "label": "Inventory cash movement",
+          "value_vnd": -1199152125913
+        },
+        {
+          "id": "payables",
+          "label": "Payables cash movement",
+          "value_vnd": -545867542229
+        },
+        {
+          "id": "prepaid",
+          "label": "Prepaid expense cash movement",
+          "value_vnd": -947028037418
+        },
+        {
+          "id": "interest_paid",
+          "label": "Interest paid",
+          "value_vnd": -566873945257
+        },
+        {
+          "id": "tax_paid",
+          "label": "Tax paid",
+          "value_vnd": -1217983996395
+        },
+        {
+          "id": "other",
+          "label": "Other operating cash payments",
+          "value_vnd": -122306438917
+        }
+      ],
+      "reported_total_vnd": 951977889614,
+      "note": "Use reported cash-flow movements. Closing-minus-opening balance changes are distorted by the FTEL perimeter change. Finance income removal and cash receipt timing need separate forecast policies."
+    },
+    {
+      "id": "cfi",
+      "title": "Reported investing cash-flow bridge, 9M 2026",
+      "printed_page": "9",
+      "rows": [
+        {
+          "id": "capex",
+          "label": "Purchase of fixed and other long-term assets",
+          "value_vnd": -2028801162827
+        },
+        {
+          "id": "disposal",
+          "label": "Disposal receipts",
+          "value_vnd": 3395575858
+        },
+        {
+          "id": "debt_purchase",
+          "label": "Debt instruments and lending purchases",
+          "value_vnd": -27551559694283
+        },
+        {
+          "id": "debt_redemption",
+          "label": "Debt instrument and lending redemptions",
+          "value_vnd": 23843896258962
+        },
+        {
+          "id": "equity_contribution",
+          "label": "Equity contributions",
+          "value_vnd": -346196684866
+        },
+        {
+          "id": "equity_recovery",
+          "label": "Equity recoveries",
+          "value_vnd": 3366000000
+        },
+        {
+          "id": "deconsolidation",
+          "label": "Cash removed on deconsolidation",
+          "value_vnd": -713425316747
+        },
+        {
+          "id": "interest_dividends",
+          "label": "Combined interest and dividend receipts",
+          "value_vnd": 1245974316641
+        }
+      ],
+      "reported_total_vnd": -5543350707262,
+      "note": "The combined receipt line cannot be split into deposit interest, associate dividends and other dividends without supporting detail. Historical interest receipts are presented in investing cash flow."
+    },
+    {
+      "id": "finance_income",
+      "title": "Financial income, 9M 2026",
+      "printed_page": "44",
+      "rows": [
+        {
+          "id": "deposit_interest",
+          "label": "Deposit interest income",
+          "value_vnd": 1283486053633
+        },
+        {
+          "id": "fx_gains",
+          "label": "Foreign-exchange gains",
+          "value_vnd": 205817927014
+        },
+        {
+          "id": "other_dividends",
+          "label": "Dividends from other investments",
+          "value_vnd": 35788686053
+        },
+        {
+          "id": "other",
+          "label": "Other finance income",
+          "value_vnd": 3458727072
+        }
+      ],
+      "reported_total_vnd": 1528551393772,
+      "note": "Deposit interest income is accrual income. Other-investment dividends are distinct from associate equity income and associate dividend receipts."
+    },
+    {
+      "id": "finance_expense",
+      "title": "Financial expense, 9M 2026",
+      "printed_page": "44",
+      "rows": [
+        {
+          "id": "interest",
+          "label": "Interest expense",
+          "value_vnd": 612395846030
+        },
+        {
+          "id": "fx_losses",
+          "label": "Foreign-exchange losses",
+          "value_vnd": 316730646783
+        },
+        {
+          "id": "investment_provision",
+          "label": "Investment provision",
+          "value_vnd": 58728043907
+        },
+        {
+          "id": "other",
+          "label": "Other finance expense",
+          "value_vnd": 395407680
+        }
+      ],
+      "reported_total_vnd": 988249944400,
+      "note": "Interest expense differs from cash interest paid. The difference alone does not prove a payable movement because capitalisation, timing and perimeter effects can intervene."
+    }
+  ]
+}
