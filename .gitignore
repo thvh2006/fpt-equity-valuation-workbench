@@ -7,3 +7,8 @@ venv/
 ~$*
 *.inspect.ndjson
 reports/rendered/
+node_modules
+outputs/qa/
+outputs/previews/
+data/private_sources/
+outputs/fpt_development/FPT_Prevaluation_Evidence_*.zip

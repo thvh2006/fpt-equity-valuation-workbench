@@ -1,5 +1,30 @@
 # Reproducibility
 
+## Clock C current package
+
+Core engines require only Python3.10+:
+
+```bash
+python scripts/run_three_statement.py
+python scripts/run_clock_c.py
+python scripts/run_checks.py
+```
+
+The full artifact build requires Node with `@oai/artifact-tool` and Python `reportlab` for PDF output. Use the resolved host runtime or a normal local installation. Do not modify managed runtime dependencies.
+
+```bash
+python scripts/run_all.py --node /path/to/node
+node scripts/verify_clock_c_dashboard.mjs
+python scripts/build_clock_c_notebook.py
+python scripts/build_clock_c_report.py
+```
+
+The workbook builder writes `outputs/p1_final/FPT_Research_Model_Clock_C.xlsx`. Native What-If Data Tables use the actual WACC/g inputs on `Valuation Inputs`. After manual overrides, restore G10 to `=G9` and G11 to the active growth driver. The authoritative case selector is `Assumptions!D5`.
+
+For independent office validation, recalculate a disposable copy using LibreOffice. `scripts/review_clock_c_artifacts.py` expects that copy at `/tmp/p1-lo-check/FPT_Research_Model_Clock_C.xlsx`, reads values with openpyxl and renders PDFs with pypdfium2/Pillow/pypdf. This is not Microsoft Excel UI or Jupyter-kernel verification. Saved-HTML tests run in a minimal DOM and do not certify browser layout.
+
+See `docs/CLOCK_C_FINAL_REVIEW.md` for assumptions and verification scope. Historical instructions below retain their original clock.
+
 ## Quick start
 
 Requirements: Python 3.10 or newer. The core Clock B model uses only the Python standard library.
