@@ -16,5 +16,9 @@ jobs:
         run: python scripts/run_clock_b.py
       - name: Run repository checks
         run: python scripts/run_checks.py
+      - name: Reproduce Clock C
+        run: python scripts/run_clock_c.py
+      - name: Check committed Clock C result
+        run: git diff --exit-code -- outputs/p1_final/clock_c_valuation.json
       - name: Confirm generated output is committed
         run: git diff --exit-code -- reports/clock_b_summary.json
