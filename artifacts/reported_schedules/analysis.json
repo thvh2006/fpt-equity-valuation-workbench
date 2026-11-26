@@ -1,0 +1,66 @@
+{
+  "status": "verified_original",
+  "source_verified": true,
+  "forecast_integration": "historical_calibration_reference",
+  "all_accounting_bridges_pass": true,
+  "checks": [
+    {
+      "schedule": "receivables",
+      "difference_vnd": 0,
+      "passed": true
+    },
+    {
+      "schedule": "short_investments",
+      "difference_vnd": 0,
+      "passed": true
+    },
+    {
+      "schedule": "associates",
+      "difference_vnd": 0,
+      "passed": true
+    },
+    {
+      "schedule": "short_debt",
+      "difference_vnd": 0,
+      "passed": true
+    },
+    {
+      "schedule": "long_debt",
+      "difference_vnd": 0,
+      "passed": true
+    },
+    {
+      "schedule": "loan_maturity",
+      "difference_vnd": 0,
+      "passed": true
+    },
+    {
+      "schedule": "cfo",
+      "difference_vnd": 0,
+      "passed": true
+    },
+    {
+      "schedule": "cfi",
+      "difference_vnd": 0,
+      "passed": true
+    },
+    {
+      "schedule": "finance_income",
+      "difference_vnd": 0,
+      "passed": true
+    },
+    {
+      "schedule": "finance_expense",
+      "difference_vnd": 0,
+      "passed": true
+    }
+  ],
+  "metrics": {
+    "associate_received_dividends_to_profit": 0.09727712771851216,
+    "trade_gross_share_of_grouped_net_receivables": 0.7957764707915062,
+    "accrued_interest_share_of_short_investments": 0.023910084515371837,
+    "debt_perimeter_change_vnd": -7510806811800,
+    "debt_fx_change_vnd": -49364484749
+  },
+  "interpretation": "Historical observations only. No forward assumption is approved by these ratios."
+}
