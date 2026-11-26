@@ -1,0 +1,43 @@
+{
+  "version": "1.1.0-clock-c",
+  "information_cutoff": "2026-11-23",
+  "common": {
+    "valuation_date": "2026-12-31",
+    "risk_free_anchor": 0.045,
+    "total_equity_premium": 0.08,
+    "target_debt_weight": 0.10,
+    "cost_of_debt": 0.055,
+    "debt_tax_rate": 0.20,
+    "terminal_tax": 0.20,
+    "issued_shares_million": 1885.727648,
+    "incremental_dilution": 0.01,
+    "margin_of_safety": 0.20
+  },
+  "scenarios": {
+    "base": {"beta": 1.0, "wacc_adjustment": 0.0, "terminal_growth": 0.03, "terminal_roic": 0.15, "associate_pe": 14.0, "nci_book_multiple": 1.5, "parent_pe": 15.0},
+    "downside": {"beta": 1.0, "wacc_adjustment": 0.015, "terminal_growth": 0.02, "terminal_roic": 0.12, "associate_pe": 11.0, "nci_book_multiple": 2.0, "parent_pe": 12.0},
+    "upside": {"beta": 1.0, "wacc_adjustment": -0.005, "terminal_growth": 0.04, "terminal_roic": 0.18, "associate_pe": 17.0, "nci_book_multiple": 1.0, "parent_pe": 18.0}
+  },
+  "input_policy": {
+    "risk_free_anchor": "Analyst VND long-duration benchmark, 4.50%. Not a verified 23 Nov close. HNX 9 Nov trading statistics show ten-year domestic trades spanning 3.38%-4.5032%; this dispersion is not a par curve. Sensitivity covers the valuation consequence.",
+    "total_equity_premium": "Analyst total VND equity premium of 8%, including local equity/country risk. Do not add a separate country premium to this input. No empirical beta/ERP estimate is claimed.",
+    "beta": "Judgemental beta 1.0, not a regression. WACC case adjustments are explicit risk stresses.",
+    "target_debt_weight": "Exogenous long-run financing mix, not a market-cap weight derived from an unverified quote. This avoids price/WACC circularity.",
+    "cost_of_debt": "Analyst marginal nominal VND debt cost 5.5%, compared with forecast financing costs. Not an issuer commitment or observed new loan.",
+    "tax": "20% normalised terminal and interest-tax-shield assumption. Explicit forecast retains case tax rates and incentive uncertainty.",
+    "shares": "1,885,727,648 issued shares from 25 Sep 2026 issuer notice already visually verified in repository source register. Add a separate 1% unissued dilution reserve. No additional announced issue is asserted. Future bonus shares are neutral and not separately forecast.",
+    "associate_pe": "Analyst capitalisation multiple on 2027 FPT-attributable associate earnings, not a peer median or quoted FTEL multiple. This captures reinvested earnings as well as distributions. Do not add associate book value or future dividends again.",
+    "nci": "Forecast NCI book equity times 1.0-2.0 proxy because subsidiary market values are unavailable. This is a model risk. Earnings-share allocation would understate the substantial opening NCI capital.",
+    "timing": "Forward value at projected 31 Dec 2026 balance sheet. Q4 cash movements are in that balance sheet, so exclude Q4 FCFF. Annual FCFF uses mid-year timing 0.5-4.5. Gordon terminal stream also uses mid-year timing with terminal discount at 4.5, not 5.0.",
+    "terminal": "2032 NOPAT uses 2031 EBIT, case g and normalised 20% tax. Reinvestment = NOPAT*g/ROIC, including operating cash needs. No extra CIP/PPE asset addition. Immediate stable-state transition is an explicit simplification.",
+    "cash": "Subtract required operating cash from projected year-end cash. Deduct subsequent annual increases in the reserve from FCFF. A below-floor balance remains a negative equity adjustment; no financing plug.",
+    "price": "No verified same-cutoff closing quote. Upside and market-implied reverse DCF remain unavailable. Hypothetical price probes are labelled as such. No comparison to the old Clock B price."
+  },
+  "sources": [
+    {"id":"shares_notice","published":"2026-09-25","url":"https://fpt.com/api/media/20260925_FPT_TB_thay_doi_SLCP_dang_luu_hanh_sau_phat_hanh_CP_de_tang_von_51d7ab9f5c.pdf","status":"prior visual verification retained; current web fetch unavailable","sha256":"a101b25206828a3a1106be73f9eaca4b041a73815b9123bfb03f496509d923be"},
+    {"id":"hnx_yield_context","published":"2026-11-09","url":"https://owa.hnx.vn/ftp/THONGKEGIAODICH/20261109/TP/20261109_TP_Yield_change_statistics.pdf","status":"indexed primary source ranges retrieved 2026-11-26; PDF fetch timed out; benchmark remains judgement"},
+    {"id":"issuer_10m","published":"2026-11-18","url":"https://fpt.com/en/news/fpt-s-profit-before-tax-rises-16-8-in-first-10-months-of-2026-overseas-it-services-revenue-grows-12-2","status":"primary web text rechecked 2026-11-26; information predates cutoff"},
+    {"id":"tcs_q2","published":"2026-10-08","url":"https://www.tcs.com/who-we-are/newsroom/press-release/tcs-financial-results-q2-fy-2027","status":"primary web page opened; economic comparison only"},
+    {"id":"infosys_q2","published":"2026-10-23","url":"https://www.infosys.com/investors/reports-filings/quarterly-results/2026-2027/q2.html","status":"primary results landing page opened; economic comparison only"}
+  ]
+}
