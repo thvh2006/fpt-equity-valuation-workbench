@@ -1,0 +1,701 @@
+{
+  "status": "FORWARD_RESEARCH_VALUATION",
+  "version": "1.1.0-clock-c",
+  "run_id": "c4c5159d562851e0",
+  "information_cutoff": "2026-11-23",
+  "valuation_date": "2026-12-31",
+  "unit": "VND billion except per-share VND and million shares",
+  "decision": "WATCHLIST: require verified entry quote and cash-conversion recovery before adding exposure",
+  "cases": {
+    "base": {
+      "valuation_date": "2026-12-31",
+      "information_cutoff": "2026-11-23",
+      "basis": "31 Dec 2026E forward value; not a spot target or quoted return",
+      "cost_of_equity": 0.125,
+      "wacc": 0.1169,
+      "terminal_growth": 0.03,
+      "terminal_roic": 0.15,
+      "periods": [
+        {
+          "period": "2027E",
+          "operating_fcff": 4570.951240482494,
+          "operating_cash_investment": 329.6987699464253,
+          "fcff": 4241.252470536068,
+          "timing": 0.5,
+          "discount_factor": 0.9462215930060992,
+          "pv": 4013.1646690116927
+        },
+        {
+          "period": "2028E",
+          "operating_fcff": 5706.109653807445,
+          "operating_cash_investment": 339.40493540800753,
+          "fcff": 5366.704718399438,
+          "timing": 1.5,
+          "discount_factor": 0.8471855967464403,
+          "pv": 4546.594939419166
+        },
+        {
+          "period": "2029E",
+          "operating_fcff": 6914.880315846705,
+          "operating_cash_investment": 343.6819069757403,
+          "fcff": 6571.198408870965,
+          "timing": 2.5,
+          "discount_factor": 0.7585151730203602,
+          "pv": 4984.353698055876
+        },
+        {
+          "period": "2030E",
+          "operating_fcff": 8365.30209029328,
+          "operating_cash_investment": 341.74691407994123,
+          "fcff": 8023.555176213339,
+          "timing": 3.5,
+          "discount_factor": 0.6791254123201363,
+          "pv": 5449.000217319248
+        },
+        {
+          "period": "2031E",
+          "operating_fcff": 9374.620589015825,
+          "operating_cash_investment": 291.903962179058,
+          "fcff": 9082.716626836767,
+          "timing": 4.5,
+          "discount_factor": 0.6080449568628671,
+          "pv": 5522.700039562608
+        }
+      ],
+      "explicit_pv": 24515.813563368592,
+      "terminal_nopat": 11564.733602138569,
+      "terminal_reinvestment": 2312.946720427714,
+      "terminal_fcff": 9251.786881710856,
+      "terminal_value": 106464.75122797301,
+      "terminal_timing": 4.5,
+      "terminal_pv": 64735.35506782873,
+      "operating_ev": 89251.16863119732,
+      "terminal_share_of_ev": 0.725316609974346,
+      "associate_earnings": 3423.898616461456,
+      "associate_value": 47934.58063046039,
+      "cash_net_of_reserve": 4867.552275429396,
+      "investments": 21219.5323784135,
+      "debt": 16472.37523194691,
+      "nci_value": 1754.33318128367,
+      "equity_value": 145046.12550227004,
+      "diluted_shares_million": 1904.5849244800002,
+      "fair_value_vnd": 76156.29192374884,
+      "pe_crosscheck_vnd": 87831.23278661317,
+      "margin_of_safety_price_vnd": 60925.03353899907,
+      "market_price_vnd": null,
+      "upside": null,
+      "max_funding_gap": 0,
+      "financing_status": "FUNDED",
+      "nci_method": "Forecast NCI book equity times explicit valuation proxy; not an observed market value",
+      "checks": {
+        "equity_bridge": 0.0,
+        "terminal_reinvestment": 0.0
+      },
+      "sensitivity": [
+        {
+          "wacc": 0.0969,
+          "g": 0.02,
+          "fair_value_vnd": 87501.48897475275
+        },
+        {
+          "wacc": 0.0969,
+          "g": 0.025,
+          "fair_value_vnd": 88996.40562579005
+        },
+        {
+          "wacc": 0.0969,
+          "g": 0.03,
+          "fair_value_vnd": 90695.40458462421
+        },
+        {
+          "wacc": 0.0969,
+          "g": 0.035,
+          "fair_value_vnd": 92647.94036849192
+        },
+        {
+          "wacc": 0.0969,
+          "g": 0.04,
+          "fair_value_vnd": 94920.85045323681
+        },
+        {
+          "wacc": 0.10690000000000001,
+          "g": 0.02,
+          "fair_value_vnd": 80449.94564091293
+        },
+        {
+          "wacc": 0.10690000000000001,
+          "g": 0.025,
+          "fair_value_vnd": 81408.37491254415
+        },
+        {
+          "wacc": 0.10690000000000001,
+          "g": 0.03,
+          "fair_value_vnd": 82475.25796767946
+        },
+        {
+          "wacc": 0.10690000000000001,
+          "g": 0.035,
+          "fair_value_vnd": 83673.22076949784
+        },
+        {
+          "wacc": 0.10690000000000001,
+          "g": 0.04,
+          "fair_value_vnd": 85031.6533957308
+        },
+        {
+          "wacc": 0.1169,
+          "g": 0.02,
+          "fair_value_vnd": 74868.16360824855
+        },
+        {
+          "wacc": 0.1169,
+          "g": 0.025,
+          "fair_value_vnd": 75483.68699333962
+        },
+        {
+          "wacc": 0.1169,
+          "g": 0.03,
+          "fair_value_vnd": 76156.29192374884
+        },
+        {
+          "wacc": 0.1169,
+          "g": 0.035,
+          "fair_value_vnd": 76896.43289495571
+        },
+        {
+          "wacc": 0.1169,
+          "g": 0.04,
+          "fair_value_vnd": 77717.28338695972
+        },
+        {
+          "wacc": 0.1269,
+          "g": 0.02,
+          "fair_value_vnd": 70343.05977246669
+        },
+        {
+          "wacc": 0.1269,
+          "g": 0.025,
+          "fair_value_vnd": 70732.15449492124
+        },
+        {
+          "wacc": 0.1269,
+          "g": 0.03,
+          "fair_value_vnd": 71149.55755057574
+        },
+        {
+          "wacc": 0.1269,
+          "g": 0.035,
+          "fair_value_vnd": 71599.88945083393
+        },
+        {
+          "wacc": 0.1269,
+          "g": 0.04,
+          "fair_value_vnd": 72088.83411593805
+        },
+        {
+          "wacc": 0.1369,
+          "g": 0.02,
+          "fair_value_vnd": 66602.92868806406
+        },
+        {
+          "wacc": 0.1369,
+          "g": 0.025,
+          "fair_value_vnd": 66838.83759988756
+        },
+        {
+          "wacc": 0.1369,
+          "g": 0.03,
+          "fair_value_vnd": 67086.49542967364
+        },
+        {
+          "wacc": 0.1369,
+          "g": 0.035,
+          "fair_value_vnd": 67347.63165504189
+        },
+        {
+          "wacc": 0.1369,
+          "g": 0.04,
+          "fair_value_vnd": 67624.3327149369
+        }
+      ],
+      "reverse_dcf_hypothetical": [
+        {
+          "status": "OUTSIDE_NONNEGATIVE_GROWTH_RANGE",
+          "hypothetical_price": 60000,
+          "minimum_price": 72830.39738081367
+        },
+        {
+          "status": "SOLVED",
+          "hypothetical_price": 80000,
+          "terminal_growth": 0.051446914152419074,
+          "residual_vnd": 1.4551915228366852e-11
+        },
+        {
+          "status": "SOLVED",
+          "hypothetical_price": 100000,
+          "terminal_growth": 0.08978464922888091,
+          "residual_vnd": 1.4551915228366852e-11
+        }
+      ]
+    },
+    "downside": {
+      "valuation_date": "2026-12-31",
+      "information_cutoff": "2026-11-23",
+      "basis": "31 Dec 2026E forward value; not a spot target or quoted return",
+      "cost_of_equity": 0.125,
+      "wacc": 0.13190000000000002,
+      "terminal_growth": 0.02,
+      "terminal_roic": 0.12,
+      "periods": [
+        {
+          "period": "2027E",
+          "operating_fcff": 2543.87418936604,
+          "operating_cash_investment": 187.78760000000057,
+          "fcff": 2356.0865893660393,
+          "timing": 0.5,
+          "discount_factor": 0.9399309927996701,
+          "pv": 2214.55880706481
+        },
+        {
+          "period": "2028E",
+          "operating_fcff": 2767.4237712080303,
+          "operating_cash_investment": 198.52913919999992,
+          "fcff": 2568.8946320080304,
+          "timing": 1.5,
+          "discount_factor": 0.830401089141859,
+          "pv": 2133.2129003101436
+        },
+        {
+          "period": "2029E",
+          "operating_fcff": 3088.11811047101,
+          "operating_cash_investment": 251.44839828607473,
+          "fcff": 2836.669712184935,
+          "timing": 2.5,
+          "discount_factor": 0.7336346754500035,
+          "pv": 2081.07926365765
+        },
+        {
+          "period": "2030E",
+          "operating_fcff": 3716.9828149124096,
+          "operating_cash_investment": 268.08685692365634,
+          "fcff": 3448.8959579887533,
+          "timing": 3.5,
+          "discount_factor": 0.6481444257001534,
+          "pv": 2235.3826899902006
+        },
+        {
+          "period": "2031E",
+          "operating_fcff": 4106.486109970548,
+          "operating_cash_investment": 239.10233885072648,
+          "fcff": 3867.383771119821,
+          "timing": 4.5,
+          "discount_factor": 0.5726163315665284,
+          "pv": 2214.5271077785583
+        }
+      ],
+      "explicit_pv": 10878.760768801363,
+      "terminal_nopat": 7417.893850843974,
+      "terminal_reinvestment": 1236.315641807329,
+      "terminal_fcff": 6181.578209036645,
+      "terminal_value": 55241.98578227564,
+      "terminal_timing": 4.5,
+      "terminal_pv": 31632.46324709699,
+      "operating_ev": 42511.22401589835,
+      "terminal_share_of_ev": 0.7440967410222552,
+      "associate_earnings": 3084.3925237790704,
+      "associate_value": 33928.31776156977,
+      "cash_net_of_reserve": -2777.166793354788,
+      "investments": 21245.845079916995,
+      "debt": 15781.162374460757,
+      "nci_value": 2336.951926735334,
+      "equity_value": 76790.10576283424,
+      "diluted_shares_million": 1904.5849244800002,
+      "fair_value_vnd": 40318.55170952793,
+      "pe_crosscheck_vnd": 54864.14308502272,
+      "margin_of_safety_price_vnd": 32254.841367622343,
+      "market_price_vnd": null,
+      "upside": null,
+      "max_funding_gap": 3772.287855537567,
+      "financing_status": "POLICY_SHORTFALL",
+      "nci_method": "Forecast NCI book equity times explicit valuation proxy; not an observed market value",
+      "checks": {
+        "equity_bridge": 0.0,
+        "terminal_reinvestment": 0.0
+      },
+      "sensitivity": [
+        {
+          "wacc": 0.11190000000000001,
+          "g": 0.02,
+          "fair_value_vnd": 45885.50717778868
+        },
+        {
+          "wacc": 0.11190000000000001,
+          "g": 0.025,
+          "fair_value_vnd": 46095.543818278355
+        },
+        {
+          "wacc": 0.11190000000000001,
+          "g": 0.03,
+          "fair_value_vnd": 46319.173124343135
+        },
+        {
+          "wacc": 0.11190000000000001,
+          "g": 0.035,
+          "fair_value_vnd": 46559.04646117975
+        },
+        {
+          "wacc": 0.11190000000000001,
+          "g": 0.04,
+          "fair_value_vnd": 46818.552708643205
+        },
+        {
+          "wacc": 0.12190000000000002,
+          "g": 0.02,
+          "fair_value_vnd": 42820.580365489885
+        },
+        {
+          "wacc": 0.12190000000000002,
+          "g": 0.025,
+          "fair_value_vnd": 42894.92650894094
+        },
+        {
+          "wacc": 0.12190000000000002,
+          "g": 0.03,
+          "fair_value_vnd": 42967.04539982117
+        },
+        {
+          "wacc": 0.12190000000000002,
+          "g": 0.035,
+          "fair_value_vnd": 43036.55258716899
+        },
+        {
+          "wacc": 0.12190000000000002,
+          "g": 0.04,
+          "fair_value_vnd": 43102.96973700412
+        },
+        {
+          "wacc": 0.13190000000000002,
+          "g": 0.02,
+          "fair_value_vnd": 40318.55170952793
+        },
+        {
+          "wacc": 0.13190000000000002,
+          "g": 0.025,
+          "fair_value_vnd": 40307.07064605629
+        },
+        {
+          "wacc": 0.13190000000000002,
+          "g": 0.03,
+          "fair_value_vnd": 40285.52245356841
+        },
+        {
+          "wacc": 0.13190000000000002,
+          "g": 0.035,
+          "fair_value_vnd": 40252.34875295962
+        },
+        {
+          "wacc": 0.13190000000000002,
+          "g": 0.04,
+          "fair_value_vnd": 40205.652018421264
+        },
+        {
+          "wacc": 0.14190000000000003,
+          "g": 0.02,
+          "fair_value_vnd": 38240.142937624645
+        },
+        {
+          "wacc": 0.14190000000000003,
+          "g": 0.025,
+          "fair_value_vnd": 38174.037730833
+        },
+        {
+          "wacc": 0.14190000000000003,
+          "g": 0.03,
+          "fair_value_vnd": 38094.199492590946
+        },
+        {
+          "wacc": 0.14190000000000003,
+          "g": 0.035,
+          "fair_value_vnd": 37998.70123064631
+        },
+        {
+          "wacc": 0.14190000000000003,
+          "g": 0.04,
+          "fair_value_vnd": 37885.23774033235
+        },
+        {
+          "wacc": 0.1519,
+          "g": 0.02,
+          "fair_value_vnd": 36488.35629242177
+        },
+        {
+          "wacc": 0.1519,
+          "g": 0.025,
+          "fair_value_vnd": 36387.71208963044
+        },
+        {
+          "wacc": 0.1519,
+          "g": 0.03,
+          "fair_value_vnd": 36271.904448335576
+        },
+        {
+          "wacc": 0.1519,
+          "g": 0.035,
+          "fair_value_vnd": 36138.98767497383
+        },
+        {
+          "wacc": 0.1519,
+          "g": 0.04,
+          "fair_value_vnd": 35986.66832020647
+        }
+      ],
+      "reverse_dcf_hypothetical": [
+        {
+          "status": "OUTSIDE_NONNEGATIVE_GROWTH_RANGE",
+          "hypothetical_price": 60000,
+          "minimum_price": 40286.701858277695
+        },
+        {
+          "status": "OUTSIDE_NONNEGATIVE_GROWTH_RANGE",
+          "hypothetical_price": 80000,
+          "minimum_price": 40286.701858277695
+        },
+        {
+          "status": "OUTSIDE_NONNEGATIVE_GROWTH_RANGE",
+          "hypothetical_price": 100000,
+          "minimum_price": 40286.701858277695
+        }
+      ]
+    },
+    "upside": {
+      "valuation_date": "2026-12-31",
+      "information_cutoff": "2026-11-23",
+      "basis": "31 Dec 2026E forward value; not a spot target or quoted return",
+      "cost_of_equity": 0.125,
+      "wacc": 0.1119,
+      "terminal_growth": 0.04,
+      "terminal_roic": 0.18,
+      "periods": [
+        {
+          "period": "2027E",
+          "operating_fcff": 4957.6581978429185,
+          "operating_cash_investment": 473.98569233792887,
+          "fcff": 4483.67250550499,
+          "timing": 0.5,
+          "discount_factor": 0.9483466947103832,
+          "pv": 4252.07600075948
+        },
+        {
+          "period": "2028E",
+          "operating_fcff": 6623.245066003023,
+          "operating_cash_investment": 522.8583161336069,
+          "fcff": 6100.386749869416,
+          "timing": 1.5,
+          "discount_factor": 0.8529064616515724,
+          "pv": 5203.059277537259
+        },
+        {
+          "period": "2029E",
+          "operating_fcff": 8478.78101694728,
+          "operating_cash_investment": 531.9969921758852,
+          "fcff": 7946.784024771394,
+          "timing": 2.5,
+          "discount_factor": 0.7670711949380092,
+          "pv": 6095.749117795675
+        },
+        {
+          "period": "2030E",
+          "operating_fcff": 10675.318402907065,
+          "operating_cash_investment": 521.6260068677775,
+          "fcff": 10153.692396039289,
+          "timing": 3.5,
+          "discount_factor": 0.6898742647162598,
+          "pv": 7004.771075872683
+        },
+        {
+          "period": "2031E",
+          "operating_fcff": 12959.128688138964,
+          "operating_cash_investment": 440.81187963958473,
+          "fcff": 12518.31680849938,
+          "timing": 4.5,
+          "discount_factor": 0.6204463213564708,
+          "pv": 7766.943613408315
+        }
+      ],
+      "explicit_pv": 30322.59908537341,
+      "terminal_nopat": 15779.122282678183,
+      "terminal_reinvestment": 3506.47161837293,
+      "terminal_fcff": 12272.650664305253,
+      "terminal_value": 170690.55165932202,
+      "terminal_timing": 4.5,
+      "terminal_pv": 105904.32486733298,
+      "operating_ev": 136226.9239527064,
+      "terminal_share_of_ev": 0.7774111151779333,
+      "associate_earnings": 3701.3564654551815,
+      "associate_value": 62923.059912738085,
+      "cash_net_of_reserve": 6721.788228025442,
+      "investments": 21209.0072978121,
+      "debt": 16472.37523194691,
+      "nci_value": 1170.1699315813826,
+      "equity_value": 209438.2342277537,
+      "diluted_shares_million": 1904.5849244800002,
+      "fair_value_vnd": 109965.29035581632,
+      "pe_crosscheck_vnd": 122336.06217798348,
+      "margin_of_safety_price_vnd": 87972.23228465306,
+      "market_price_vnd": null,
+      "upside": null,
+      "max_funding_gap": 0,
+      "financing_status": "FUNDED",
+      "nci_method": "Forecast NCI book equity times explicit valuation proxy; not an observed market value",
+      "checks": {
+        "equity_bridge": 0.0,
+        "terminal_reinvestment": 0.0
+      },
+      "sensitivity": [
+        {
+          "wacc": 0.0919,
+          "g": 0.02,
+          "fair_value_vnd": 122823.86467122137
+        },
+        {
+          "wacc": 0.0919,
+          "g": 0.025,
+          "fair_value_vnd": 125952.23441382691
+        },
+        {
+          "wacc": 0.0919,
+          "g": 0.03,
+          "fair_value_vnd": 129561.92744980115
+        },
+        {
+          "wacc": 0.0919,
+          "g": 0.035,
+          "fair_value_vnd": 133779.83041184233
+        },
+        {
+          "wacc": 0.0919,
+          "g": 0.04,
+          "fair_value_vnd": 138781.7265155767
+        },
+        {
+          "wacc": 0.1019,
+          "g": 0.02,
+          "fair_value_vnd": 111754.84494687851
+        },
+        {
+          "wacc": 0.1019,
+          "g": 0.025,
+          "fair_value_vnd": 113851.67899616026
+        },
+        {
+          "wacc": 0.1019,
+          "g": 0.03,
+          "fair_value_vnd": 116220.25764408751
+        },
+        {
+          "wacc": 0.1019,
+          "g": 0.035,
+          "fair_value_vnd": 118921.51017286786
+        },
+        {
+          "wacc": 0.1019,
+          "g": 0.04,
+          "fair_value_vnd": 122036.052224065
+        },
+        {
+          "wacc": 0.1119,
+          "g": 0.02,
+          "fair_value_vnd": 103122.80261386101
+        },
+        {
+          "wacc": 0.1119,
+          "g": 0.025,
+          "fair_value_vnd": 104561.84891897025
+        },
+        {
+          "wacc": 0.1119,
+          "g": 0.03,
+          "fair_value_vnd": 106159.83936591342
+        },
+        {
+          "wacc": 0.1119,
+          "g": 0.035,
+          "fair_value_vnd": 107947.77736337062
+        },
+        {
+          "wacc": 0.1119,
+          "g": 0.04,
+          "fair_value_vnd": 109965.29035581632
+        },
+        {
+          "wacc": 0.1219,
+          "g": 0.02,
+          "fair_value_vnd": 96209.0797759016
+        },
+        {
+          "wacc": 0.1219,
+          "g": 0.025,
+          "fair_value_vnd": 97211.48504518415
+        },
+        {
+          "wacc": 0.1219,
+          "g": 0.03,
+          "fair_value_vnd": 98308.61644588137
+        },
+        {
+          "wacc": 0.1219,
+          "g": 0.035,
+          "fair_value_vnd": 99516.82486373803
+        },
+        {
+          "wacc": 0.1219,
+          "g": 0.04,
+          "fair_value_vnd": 100856.45407479074
+        },
+        {
+          "wacc": 0.1319,
+          "g": 0.02,
+          "fair_value_vnd": 90551.97322845271
+        },
+        {
+          "wacc": 0.1319,
+          "g": 0.025,
+          "fair_value_vnd": 91255.39076132332
+        },
+        {
+          "wacc": 0.1319,
+          "g": 0.03,
+          "fair_value_vnd": 92015.403748473
+        },
+        {
+          "wacc": 0.1319,
+          "g": 0.035,
+          "fair_value_vnd": 92840.77309613701
+        },
+        {
+          "wacc": 0.1319,
+          "g": 0.04,
+          "fair_value_vnd": 93742.16632779429
+        }
+      ],
+      "reverse_dcf_hypothetical": [
+        {
+          "status": "OUTSIDE_NONNEGATIVE_GROWTH_RANGE",
+          "hypothetical_price": 60000,
+          "minimum_price": 98529.9351071142
+        },
+        {
+          "status": "OUTSIDE_NONNEGATIVE_GROWTH_RANGE",
+          "hypothetical_price": 80000,
+          "minimum_price": 98529.9351071142
+        },
+        {
+          "status": "SOLVED",
+          "hypothetical_price": 100000,
+          "terminal_growth": 0.007175131342472628,
+          "residual_vnd": 0.0
+        }
+      ]
+    }
+  }
+}

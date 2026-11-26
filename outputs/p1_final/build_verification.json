@@ -1,0 +1,38 @@
+{
+  "completed_at_utc": "2026-11-26T06:07:48.696181+00:00",
+  "status": "LOCAL_BUILD_AND_CHECKS_PASSED",
+  "steps": [
+    "opening_intake",
+    "reported_schedules",
+    "research_assumptions",
+    "foundation_audit",
+    "legacy_clock_b_regression",
+    "research_forecast",
+    "clock_c_valuation",
+    "research_stresses",
+    "prevaluation_benchmarks",
+    "repository_checks",
+    "excel_build_and_reconciliation",
+    "html_build_and_reconciliation",
+    "notebook_build_and_execution",
+    "dashboard_controls",
+    "valuation_notebook",
+    "research_report"
+  ],
+  "repository_checks_passed": 62,
+  "reported_bridges": 10,
+  "excel_comparisons": 378,
+  "excel_input_perturbations": 2,
+  "javascript_comparisons": 1584,
+  "evaluated_notebook_cells": 9,
+  "exported_workbook_sheets": 14,
+  "exported_cached_errors": 0,
+  "release_status": "FORWARD_RESEARCH_VALUATION",
+  "not_verified": [
+    "independent human research review",
+    "native Microsoft Excel recalculation",
+    "Jupyter kernel",
+    "new browser UI session",
+    "internet hosting"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "version": "1.1.0-clock-c",
+  "information_cutoff": "2026-11-23",
+  "forward_value_date": "2026-12-31",
+  "files": [
+    {
+      "path": "outputs/p1_final/FPT_Decision_Memo_Clock_C.pdf",
+      "size_bytes": 5669,
+      "sha256": "427f0532c4a5a45747255e20897a663f87761f1e59ee06bdac1d58d42a09eea1"
+    },
+    {
+      "path": "outputs/p1_final/FPT_Equity_Research_Clock_C.pdf",
+      "size_bytes": 33514,
+      "sha256": "316ee12ca411f0cbf4f425559206e1dd0816a7e13e444d173fd15bd4d9187e01"
+    },
+    {
+      "path": "outputs/p1_final/FPT_Research_Dashboard_Clock_C.html",
+      "size_bytes": 102525,
+      "sha256": "cf6b27e7421cf3d2ef500152333ffca475419c22328319d3dc144aeac5a86efa"
+    },
+    {
+      "path": "outputs/p1_final/FPT_Research_Model_Clock_C.xlsx",
+      "size_bytes": 123626,
+      "sha256": "02114af54203a36e90d9d3f7f4203c6150ed3f9d77ea4132da26b8a1bab5dc7e"
+    },
+    {
+      "path": "outputs/p1_final/FPT_Sector_Appendix_Clock_C.pdf",
+      "size_bytes": 12150,
+      "sha256": "f661046fab4c430c2d9fb96bf8c059eef4404eddaa1eb9badfe220046c0b4fe6"
+    },
+    {
+      "path": "outputs/p1_final/FPT_Stock_Pitch_Clock_C.html",
+      "size_bytes": 4383,
+      "sha256": "cd3aadc4204792c109f026616de662c409209aaa2fce96e455af0b6f4489c214"
+    },
+    {
+      "path": "outputs/p1_final/FPT_Stock_Pitch_Clock_C.pdf",
+      "size_bytes": 10769,
+      "sha256": "1020c6179a76c35fa3fbcb90d5c5ec0b895b52778e6103614ef49cd7cf41ff71"
+    },
+    {
+      "path": "outputs/p1_final/build_verification.json",
+      "size_bytes": 1062,
+      "sha256": "a33661bcd4eee310c64f99f5bc5abb0005dfa4f835fb99ab260f440a0437d282"
+    },
+    {
+      "path": "outputs/p1_final/clock_c_valuation.json",
+      "size_bytes": 20129,
+      "sha256": "ae53b092b6186bfc0b0a681e0942d8ea85b598dbc4f99450714b7caa1858a956"
+    },
+    {
+      "path": "outputs/p1_final/dashboard_control_checks.json",
+      "size_bytes": 142,
+      "sha256": "6c638d2d5636d394b398739676e6f53507f4bcf8e4db1df5da9a638ddf99aa39"
+    },
+    {
+      "path": "outputs/p1_final/excel_valuation_reconciliation.json",
+      "size_bytes": 2143,
+      "sha256": "88d6e6cce953c698a284c4db214532770ffd6705da5ed1c3ed0ab539015b6250"
+    },
+    {
+      "path": "outputs/p1_final/javascript_valuation_reconciliation.json",
+      "size_bytes": 52,
+      "sha256": "0955a9b15e06cff64b190371e42b15fed58f2aae0d73bba1e9249d300359c4c3"
+    },
+    {
+      "path": "outputs/p1_final/office_engine_recalculation.json",
+      "size_bytes": 768,
+      "sha256": "17b04127c75237ea4f6805f5ea4d99f40786aae855439ff216ee5ba87deca13e"
+    },
+    {
+      "path": "outputs/p1_final/public_identity_scan.json",
+      "size_bytes": 219,
+      "sha256": "a93326b4d126fc5ffbada077e04124774aac8c29bc27c981f57b6b7ecf220f0b"
+    },
+    {
+      "path": "outputs/p1_final/valuation_sensitivity.csv",
+      "size_bytes": 3175,
+      "sha256": "0f66eadbf0675b8cb72712f035c2930d1fa89cc854bc8921c0e6cf287243f4ba"
+    }
+  ]
+}

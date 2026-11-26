@@ -1,0 +1,96 @@
+{
+  "comparisons": [
+    {
+      "case": "base",
+      "key": "fair_value_vnd",
+      "excel": 76156.29192374884,
+      "python": 76156.29192374884
+    },
+    {
+      "case": "base",
+      "key": "operating_ev",
+      "excel": 89251.16863119732,
+      "python": 89251.16863119732
+    },
+    {
+      "case": "base",
+      "key": "associate_value",
+      "excel": 47934.58063046039,
+      "python": 47934.58063046039
+    },
+    {
+      "case": "base",
+      "key": "equity_value",
+      "excel": 145046.12550227004,
+      "python": 145046.12550227004
+    },
+    {
+      "case": "base",
+      "key": "pe_crosscheck_vnd",
+      "excel": 87831.23278661317,
+      "python": 87831.23278661317
+    },
+    {
+      "case": "downside",
+      "key": "fair_value_vnd",
+      "excel": 40318.55170952793,
+      "python": 40318.55170952793
+    },
+    {
+      "case": "downside",
+      "key": "operating_ev",
+      "excel": 42511.224015898355,
+      "python": 42511.22401589835
+    },
+    {
+      "case": "downside",
+      "key": "associate_value",
+      "excel": 33928.31776156977,
+      "python": 33928.31776156977
+    },
+    {
+      "case": "downside",
+      "key": "equity_value",
+      "excel": 76790.10576283424,
+      "python": 76790.10576283424
+    },
+    {
+      "case": "downside",
+      "key": "pe_crosscheck_vnd",
+      "excel": 54864.14308502272,
+      "python": 54864.14308502272
+    },
+    {
+      "case": "upside",
+      "key": "fair_value_vnd",
+      "excel": 109965.29035581632,
+      "python": 109965.29035581632
+    },
+    {
+      "case": "upside",
+      "key": "operating_ev",
+      "excel": 136226.9239527064,
+      "python": 136226.9239527064
+    },
+    {
+      "case": "upside",
+      "key": "associate_value",
+      "excel": 62923.059912738085,
+      "python": 62923.059912738085
+    },
+    {
+      "case": "upside",
+      "key": "equity_value",
+      "excel": 209438.2342277537,
+      "python": 209438.2342277537
+    },
+    {
+      "case": "upside",
+      "key": "pe_crosscheck_vnd",
+      "excel": 122336.06217798348,
+      "python": 122336.06217798348
+    }
+  ],
+  "native_sensitivity_points": 75,
+  "wacc_perturbation_pass": true
+}

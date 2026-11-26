@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "engine": "bundled LibreOffice headless, independent XLSX recalculation; not Microsoft Excel",
+  "original_workbook_sha256": "02114af54203a36e90d9d3f7f4203c6150ed3f9d77ea4132da26b8a1bab5dc7e",
+  "headline_checks": [
+    {
+      "cell": "DCF!D35",
+      "value": 76156.2919237488,
+      "difference": -4.3655745685100555e-11
+    },
+    {
+      "cell": "DCF!D25",
+      "value": 89251.1686311973,
+      "difference": -1.4551915228366852e-11
+    },
+    {
+      "cell": "DCF!D28",
+      "value": 47934.5806304604,
+      "difference": 7.275957614183426e-12
+    },
+    {
+      "cell": "DCF!D33",
+      "value": 145046.12550227,
+      "difference": -2.9103830456733704e-11
+    }
+  ],
+  "native_sensitivity_points": 25,
+  "cached_formula_errors": []
+}
