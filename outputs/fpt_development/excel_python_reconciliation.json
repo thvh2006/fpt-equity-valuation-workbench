@@ -1,0 +1,3030 @@
+{
+  "checks": 378,
+  "input_perturbations": 2,
+  "results": [
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "revenue",
+      "excel": 15006.474599038234,
+      "python": 15006.474599038234,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "group_pat",
+      "excel": 2688.739764366711,
+      "python": 2688.739764366711,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "parent_pat",
+      "excel": 2683.3622848379773,
+      "python": 2683.3622848379773,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "cfo",
+      "excel": 1794.9396970544763,
+      "python": 1794.9396970544763,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "closing_cash",
+      "excel": 7619.0089889497585,
+      "python": 7619.0089889497585,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "total_assets",
+      "excel": 77608.11550171275,
+      "python": 77608.11550171273,
+      "difference": 1.4551915228366852e-11
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "total_equity",
+      "excel": 46055.66728913959,
+      "python": 46055.66728913959,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "funding_gap",
+      "excel": 0,
+      "python": 0,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "deposit_interest_income",
+      "excel": 263.1270150349852,
+      "python": 263.1270150349852,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "interest_receipts",
+      "excel": 493.24579959748667,
+      "python": 493.24579959748667,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "trade_gross",
+      "excel": 11307.356356932993,
+      "python": 11307.356356932993,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "allowance",
+      "excel": 361.83540342185574,
+      "python": 361.83540342185574,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "credit_loss",
+      "excel": 15.191804271855744,
+      "python": 15.191804271855744,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "long_prepaids",
+      "excel": 1780.6449365412823,
+      "python": 1780.6449365412823,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "other_op_liabilities",
+      "excel": 8474.486677642715,
+      "python": 8474.486677642715,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "bank_principal",
+      "excel": 2647.17426909834,
+      "python": 2647.17426909834,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "current_bank",
+      "excel": 602.2896423767933,
+      "python": 602.2896423767933,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "closing_cip",
+      "excel": 1438.451641825819,
+      "python": 1438.451641825819,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "interest_accrual",
+      "excel": 282.74418756949854,
+      "python": 282.74418756949854,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "short_debt",
+      "excel": 14426.785836159675,
+      "python": 14426.785836159675,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "Q4 2026E",
+      "metric": "long_debt",
+      "excel": 2045.5893957872327,
+      "python": 2045.5893957872327,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "revenue",
+      "excel": 61623.10966933574,
+      "python": 61623.10966933574,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "group_pat",
+      "excel": 11174.485094447356,
+      "python": 11174.485094447356,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "parent_pat",
+      "excel": 11152.136124258463,
+      "python": 11152.136124258463,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "cfo",
+      "excel": 7955.1372566615255,
+      "python": 7955.137256661524,
+      "difference": 1.8189894035458565e-12
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "closing_cash",
+      "excel": 9941.515050134603,
+      "python": 9941.515050134603,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "total_assets",
+      "excel": 86646.49872896979,
+      "python": 86646.4987289698,
+      "difference": -1.4551915228366852e-11
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "total_equity",
+      "excel": 54435.41366146566,
+      "python": 54435.41366146566,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "funding_gap",
+      "excel": 0,
+      "python": 0,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "deposit_interest_income",
+      "excel": 1043.9278313888,
+      "python": 1043.9278313888,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "interest_receipts",
+      "excel": 1222.2792358194188,
+      "python": 1222.2792358194188,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "trade_gross",
+      "excel": 12662.282808767619,
+      "python": 12662.282808767619,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "allowance",
+      "excel": 405.1930498805638,
+      "python": 405.1930498805638,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "credit_loss",
+      "excel": 43.357646458708075,
+      "python": 43.357646458708075,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "long_prepaids",
+      "excel": 1869.6771833683465,
+      "python": 1869.6771833683465,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "other_op_liabilities",
+      "excel": 9489.958889077703,
+      "python": 9489.958889077703,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "bank_principal",
+      "excel": 2044.8846267215467,
+      "python": 2044.8846267215467,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "current_bank",
+      "excel": 811.0271581097446,
+      "python": 811.0271581097446,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "closing_cip",
+      "excel": 2013.3111239689601,
+      "python": 2013.3111239689601,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "interest_accrual",
+      "excel": 104.39278313887985,
+      "python": 104.39278313887985,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "short_debt",
+      "excel": 14635.541225639558,
+      "python": 14635.541225639558,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2027E",
+      "metric": "long_debt",
+      "excel": 1234.3053198706743,
+      "python": 1234.3053198706743,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "revenue",
+      "excel": 68411.20837749589,
+      "python": 68411.20837749589,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "group_pat",
+      "excel": 12503.021950854849,
+      "python": 12503.021950854849,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "parent_pat",
+      "excel": 12478.01590695314,
+      "python": 12478.01590695314,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "cfo",
+      "excel": 9250.911972206039,
+      "python": 9250.91197220604,
+      "difference": -1.8189894035458565e-12
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "closing_cash",
+      "excel": 12792.908562893752,
+      "python": 12792.908562893752,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "total_assets",
+      "excel": 96502.55989615335,
+      "python": 96502.55989615337,
+      "difference": -1.4551915228366852e-11
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "total_equity",
+      "excel": 63811.429822411716,
+      "python": 63811.429822411716,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "funding_gap",
+      "excel": 0,
+      "python": 0,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "deposit_interest_income",
+      "excel": 1043.9278313888,
+      "python": 1043.9278313888,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "interest_receipts",
+      "excel": 1043.9278313887999,
+      "python": 1043.9278313887999,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "trade_gross",
+      "excel": 14018.690241290142,
+      "python": 14018.690241290142,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "allowance",
+      "excel": 448.59808772128457,
+      "python": 448.59808772128457,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "credit_loss",
+      "excel": 43.40503784072075,
+      "python": 43.40503784072075,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "long_prepaids",
+      "excel": 1963.161042536764,
+      "python": 1963.161042536764,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "other_op_liabilities",
+      "excel": 10535.326090134367,
+      "python": 10535.326090134367,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "bank_principal",
+      "excel": 1233.8574686118022,
+      "python": 1233.8574686118022,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "current_bank",
+      "excel": 449.0109432136667,
+      "python": 449.0109432136667,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "closing_cip",
+      "excel": 2340.6741253456494,
+      "python": 2340.6741253456494,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "interest_accrual",
+      "excel": 104.39278313888008,
+      "python": 104.39278313888008,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "short_debt",
+      "excel": 14273.52430878226,
+      "python": 14273.52430878226,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2028E",
+      "metric": "long_debt",
+      "excel": 785.0381608114149,
+      "python": 785.0381608114149,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "revenue",
+      "excel": 75284.8465170107,
+      "python": 75284.8465170107,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "group_pat",
+      "excel": 13931.153453560377,
+      "python": 13931.153453560377,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "parent_pat",
+      "excel": 13903.291146653257,
+      "python": 13903.291146653257,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "cfo",
+      "excel": 10567.079998794301,
+      "python": 10567.0799987943,
+      "difference": 1.8189894035458565e-12
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "closing_cash",
+      "excel": 16979.69057454582,
+      "python": 16979.69057454582,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "total_assets",
+      "excel": 107821.88316219285,
+      "python": 107821.88316219287,
+      "difference": -1.4551915228366852e-11
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "total_equity",
+      "excel": 74258.40179723664,
+      "python": 74258.40179723664,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "funding_gap",
+      "excel": 0,
+      "python": 0,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "deposit_interest_income",
+      "excel": 1043.9278313888,
+      "python": 1043.9278313888,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "interest_receipts",
+      "excel": 1043.9278313888003,
+      "python": 1043.9278313888003,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "trade_gross",
+      "excel": 15469.489010344663,
+      "python": 15469.489010344663,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "allowance",
+      "excel": 495.0236483310292,
+      "python": 495.0236483310292,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "credit_loss",
+      "excel": 46.42556060974465,
+      "python": 46.42556060974465,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "long_prepaids",
+      "excel": 2061.3190946636023,
+      "python": 2061.3190946636023,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "other_op_liabilities",
+      "excel": 11593.866363619647,
+      "python": 11593.866363619647,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "bank_principal",
+      "excel": 784.8465253981356,
+      "python": 784.8465253981356,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "current_bank",
+      "excel": 449.0109432136667,
+      "python": 449.0109432136667,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "closing_cip",
+      "excel": 2525.464299979017,
+      "python": 2525.464299979017,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "interest_accrual",
+      "excel": 104.39278313887985,
+      "python": 104.39278313887985,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "short_debt",
+      "excel": 14273.459728349946,
+      "python": 14273.459728349946,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2029E",
+      "metric": "long_debt",
+      "excel": 335.8355821844689,
+      "python": 335.8355821844689,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "revenue",
+      "excel": 82119.78479860953,
+      "python": 82119.78479860953,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "group_pat",
+      "excel": 15365.107234299678,
+      "python": 15365.107234299678,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "parent_pat",
+      "excel": 15334.377019831078,
+      "python": 15334.377019831078,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "cfo",
+      "excel": 12037.508191954817,
+      "python": 12037.508191954812,
+      "difference": 5.4569682106375694e-12
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "closing_cash",
+      "excel": 22360.941235147686,
+      "python": 22360.94123514768,
+      "difference": 7.275957614183426e-12
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "total_assets",
+      "excel": 120202.22666689169,
+      "python": 120202.22666689167,
+      "difference": 1.4551915228366852e-11
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "total_equity",
+      "excel": 85780.69571223797,
+      "python": 85780.69571223797,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "funding_gap",
+      "excel": 0,
+      "python": 0,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "deposit_interest_income",
+      "excel": 1043.9278313888,
+      "python": 1043.9278313888,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "interest_receipts",
+      "excel": 1043.9278313887999,
+      "python": 1043.9278313887999,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "trade_gross",
+      "excel": 16873.928383275932,
+      "python": 16873.928383275932,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "allowance",
+      "excel": 539.9657082648298,
+      "python": 539.9657082648298,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "credit_loss",
+      "excel": 44.94205993380058,
+      "python": 44.94205993380058,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "long_prepaids",
+      "excel": 2164.3850493967825,
+      "python": 2164.3850493967825,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "other_op_liabilities",
+      "excel": 12646.446858985868,
+      "python": 12646.446858985868,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "bank_principal",
+      "excel": 335.8355821844689,
+      "python": 335.8355821844689,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "current_bank",
+      "excel": 335.83558218446854,
+      "python": 335.83558218446854,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "closing_cip",
+      "excel": 2617.7085991665654,
+      "python": 2617.7085991665654,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "interest_accrual",
+      "excel": 104.39278313888008,
+      "python": 104.39278313888008,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "short_debt",
+      "excel": 14160.092731907469,
+      "python": 14160.092731907469,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2030E",
+      "metric": "long_debt",
+      "excel": 3.410605131648481e-13,
+      "python": 3.410605131648481e-13,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "revenue",
+      "excel": 87957.86404219069,
+      "python": 87957.86404219069,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "group_pat",
+      "excel": 16568.689978451952,
+      "python": 16568.689978451952,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "parent_pat",
+      "excel": 16535.552598495047,
+      "python": 16535.552598495047,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "cfo",
+      "excel": 13388.427146788632,
+      "python": 13388.42714678864,
+      "difference": -7.275957614183426e-12
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "closing_cash",
+      "excel": 28650.87256626282,
+      "python": 28650.87256626282,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "total_assets",
+      "excel": 133407.84433514945,
+      "python": 133407.84433514942,
+      "difference": 2.9103830456733704e-11
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "total_equity",
+      "excel": 98205.55632707909,
+      "python": 98205.55632707909,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "funding_gap",
+      "excel": 0,
+      "python": 0,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "deposit_interest_income",
+      "excel": 1043.9278313888,
+      "python": 1043.9278313888,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "interest_receipts",
+      "excel": 1043.9278313888003,
+      "python": 1043.9278313888003,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "trade_gross",
+      "excel": 18073.533707299455,
+      "python": 18073.533707299455,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "allowance",
+      "excel": 578.3530786335825,
+      "python": 578.3530786335825,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "credit_loss",
+      "excel": 38.38737036875273,
+      "python": 38.38737036875273,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "long_prepaids",
+      "excel": 2272.604301866622,
+      "python": 2272.604301866622,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "other_op_liabilities",
+      "excel": 13545.511062497366,
+      "python": 13545.511062497366,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "bank_principal",
+      "excel": 3.410605131648481e-13,
+      "python": 3.410605131648481e-13,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "current_bank",
+      "excel": 0,
+      "python": 0,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "closing_cip",
+      "excel": 2760.159056279429,
+      "python": 2760.159056279429,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "interest_accrual",
+      "excel": 104.39278313887985,
+      "python": 104.39278313887985,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "short_debt",
+      "excel": 13824.257149723,
+      "python": 13824.257149723,
+      "difference": 0
+    },
+    {
+      "scenario": "base",
+      "period": "2031E",
+      "metric": "long_debt",
+      "excel": 3.410605131648481e-13,
+      "python": 3.410605131648481e-13,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "revenue",
+      "excel": 13821.752920166795,
+      "python": 13821.752920166795,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "group_pat",
+      "excel": 1917.6748919049728,
+      "python": 1917.6748919049728,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "parent_pat",
+      "excel": 1913.8395421211628,
+      "python": 1913.8395421211628,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "cfo",
+      "excel": -3950.511543554656,
+      "python": -3950.511543554656,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "closing_cash",
+      "excel": 991.9420880527184,
+      "python": 991.9420880527184,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "total_assets",
+      "excel": 75306.4421657029,
+      "python": 75306.4421657029,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "total_equity",
+      "excel": 45573.13771838659,
+      "python": 45573.13771838659,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "funding_gap",
+      "excel": 2777.166793354788,
+      "python": 2777.166793354788,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "deposit_interest_income",
+      "excel": 210.5016120279882,
+      "python": 210.5016120279882,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "interest_receipts",
+      "excel": 414.30769508699115,
+      "python": 414.30769508699115,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "trade_gross",
+      "excel": 14014.299167660003,
+      "python": 14014.299167660003,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "allowance",
+      "excel": 560.5719667064002,
+      "python": 560.5719667064002,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "credit_loss",
+      "excel": 213.9283675564002,
+      "python": 213.9283675564002,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "long_prepaids",
+      "excel": 1793.9419604180516,
+      "python": 1793.9419604180516,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "other_op_liabilities",
+      "excel": 7538.217762815013,
+      "python": 7538.217762815013,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "bank_principal",
+      "excel": 2647.17426909834,
+      "python": 2647.17426909834,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "current_bank",
+      "excel": 602.2896423767933,
+      "python": 602.2896423767933,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "closing_cip",
+      "excel": 1528.451641825819,
+      "python": 1528.451641825819,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "interest_accrual",
+      "excel": 309.0568890729971,
+      "python": 309.0568890729971,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "short_debt",
+      "excel": 13735.572978673525,
+      "python": 13735.572978673525,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "Q4 2026E",
+      "metric": "long_debt",
+      "excel": 2045.5893957872327,
+      "python": 2045.5893957872327,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "revenue",
+      "excel": 56527.09259153581,
+      "python": 56527.09259153581,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "group_pat",
+      "excel": 8725.23545543152,
+      "python": 8725.23545543152,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "parent_pat",
+      "excel": 8707.784984520658,
+      "python": 8707.784984520658,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "cfo",
+      "excel": 6015.268050696894,
+      "python": 6015.268050696894,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "closing_cash",
+      "excel": 722.9225324850204,
+      "python": 722.9225324850204,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "total_assets",
+      "excel": 81493.88736547016,
+      "python": 81493.88736547016,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "total_equity",
+      "excel": 52551.581035640724,
+      "python": 52551.581035640724,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "funding_gap",
+      "excel": 3233.9739489224867,
+      "python": 3233.9739489224867,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "deposit_interest_income",
+      "excel": 835.14226511104,
+      "python": 835.14226511104,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "interest_receipts",
+      "excel": 935.4135879062771,
+      "python": 935.4135879062771,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "trade_gross",
+      "excel": 14712.530948481923,
+      "python": 14712.530948481923,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "allowance",
+      "excel": 588.501237939277,
+      "python": 588.501237939277,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "credit_loss",
+      "excel": 27.929271232876772,
+      "python": 27.929271232876772,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "long_prepaids",
+      "excel": 1937.4573172514959,
+      "python": 1937.4573172514959,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "other_op_liabilities",
+      "excel": 7913.792962815014,
+      "python": 7913.792962815014,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "bank_principal",
+      "excel": 2044.8846267215467,
+      "python": 2044.8846267215467,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "current_bank",
+      "excel": 811.0271581097446,
+      "python": 811.0271581097446,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "closing_cip",
+      "excel": 2120.876043109769,
+      "python": 2120.876043109769,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "interest_accrual",
+      "excel": 208.78556627775993,
+      "python": 208.78556627775993,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "short_debt",
+      "excel": 13287.676153541564,
+      "python": 13287.676153541564,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2027E",
+      "metric": "long_debt",
+      "excel": 1234.3053198706743,
+      "python": 1234.3053198706743,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "revenue",
+      "excel": 59363.22315153581,
+      "python": 59363.22315153581,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "group_pat",
+      "excel": 9244.999617381864,
+      "python": 9244.999617381864,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "parent_pat",
+      "excel": 9226.5096181471,
+      "python": 9226.5096181471,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "cfo",
+      "excel": 6536.222207797601,
+      "python": 6536.222207797601,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "closing_cash",
+      "excel": 383.13776506994054,
+      "python": 383.1377650699401,
+      "difference": 4.547473508864641e-13
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "total_assets",
+      "excel": 87942.29839260626,
+      "python": 87942.29839260626,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "total_equity",
+      "excel": 59945.73172962274,
+      "python": 59945.73172962274,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "funding_gap",
+      "excel": 3772.2878555375664,
+      "python": 3772.287855537567,
+      "difference": -4.547473508864641e-13
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "deposit_interest_income",
+      "excel": 835.14226511104,
+      "python": 835.14226511104,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "interest_receipts",
+      "excel": 835.1422651110399,
+      "python": 835.1422651110399,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "trade_gross",
+      "excel": 15408.486883595358,
+      "python": 15408.486883595358,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "allowance",
+      "excel": 616.3394753438143,
+      "python": 616.3394753438143,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "credit_loss",
+      "excel": 27.83823740453738,
+      "python": 27.83823740453738,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "long_prepaids",
+      "excel": 2092.4539026316156,
+      "python": 2092.4539026316156,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "other_op_liabilities",
+      "excel": 8310.851241215014,
+      "python": 8310.851241215014,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "bank_principal",
+      "excel": 1233.8574686118022,
+      "python": 1233.8574686118022,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "current_bank",
+      "excel": 449.0109432136667,
+      "python": 449.0109432136667,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "closing_cip",
+      "excel": 2485.155377191744,
+      "python": 2485.155377191744,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "interest_accrual",
+      "excel": 208.78556627775993,
+      "python": 208.78556627775993,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "short_debt",
+      "excel": 12301.839632803016,
+      "python": 12301.839632803016,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2028E",
+      "metric": "long_debt",
+      "excel": 785.0381608114149,
+      "python": 785.0381608114149,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "revenue",
+      "excel": 62955.343127051165,
+      "python": 62955.343127051165,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "group_pat",
+      "excel": 9884.264408029025,
+      "python": 9884.264408029025,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "parent_pat",
+      "excel": 9864.495879212967,
+      "python": 9864.495879212967,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "cfo",
+      "excel": 6909.87523553523,
+      "python": 6909.87523553523,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "closing_cash",
+      "excel": 729.0719018501245,
+      "python": 729.0719018501231,
+      "difference": 1.3642420526593924e-12
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "total_assets",
+      "excel": 95438.3350762367,
+      "python": 95438.33507623673,
+      "difference": -2.9103830456733704e-11
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "total_equity",
+      "excel": 67851.16640316434,
+      "python": 67851.16640316434,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "funding_gap",
+      "excel": 3677.8021170434567,
+      "python": 3677.8021170434586,
+      "difference": -1.8189894035458565e-12
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "deposit_interest_income",
+      "excel": 835.14226511104,
+      "python": 835.14226511104,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "interest_receipts",
+      "excel": 835.1422651110399,
+      "python": 835.1422651110399,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "trade_gross",
+      "excel": 16385.637252246193,
+      "python": 16385.637252246193,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "allowance",
+      "excel": 655.4254900898477,
+      "python": 655.4254900898477,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "credit_loss",
+      "excel": 39.08601474603336,
+      "python": 39.08601474603336,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "long_prepaids",
+      "excel": 2259.850214842145,
+      "python": 2259.850214842145,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "other_op_liabilities",
+      "excel": 8813.748037787163,
+      "python": 8813.748037787163,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "bank_principal",
+      "excel": 784.8465253981356,
+      "python": 784.8465253981356,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "current_bank",
+      "excel": 449.0109432136667,
+      "python": 449.0109432136667,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "closing_cip",
+      "excel": 2659.072908954523,
+      "python": 2659.072908954523,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "interest_accrual",
+      "excel": 208.78556627775993,
+      "python": 208.78556627775993,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "short_debt",
+      "excel": 11709.146428683513,
+      "python": 11709.146428683513,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2029E",
+      "metric": "long_debt",
+      "excel": 335.8355821844689,
+      "python": 335.8355821844689,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "revenue",
+      "excel": 66785.15536881768,
+      "python": 66785.15536881768,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "group_pat",
+      "excel": 10546.257975253748,
+      "python": 10546.257975253748,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "parent_pat",
+      "excel": 10525.16545930324,
+      "python": 10525.16545930324,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "cfo",
+      "excel": 7550.396245098833,
+      "python": 7550.396245098831,
+      "difference": 1.8189894035458565e-12
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "closing_cash",
+      "excel": 1679.9793796375907,
+      "python": 1679.9793796375889,
+      "difference": 1.8189894035458565e-12
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "total_assets",
+      "excel": 103529.41336467523,
+      "python": 103529.41336467525,
+      "difference": -1.4551915228366852e-11
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "total_equity",
+      "excel": 76286.06353177229,
+      "python": 76286.06353177229,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "funding_gap",
+      "excel": 2994.981496179647,
+      "python": 2994.981496179649,
+      "difference": -2.2737367544323206e-12
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "deposit_interest_income",
+      "excel": 835.14226511104,
+      "python": 835.14226511104,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "interest_receipts",
+      "excel": 835.1422651110399,
+      "python": 835.1422651110399,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "trade_gross",
+      "excel": 17382.437698733367,
+      "python": 17382.437698733367,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "allowance",
+      "excel": 695.2975079493347,
+      "python": 695.2975079493347,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "credit_loss",
+      "excel": 39.87201785948696,
+      "python": 39.87201785948696,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "long_prepaids",
+      "excel": 2440.6382320295165,
+      "python": 2440.6382320295165,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "other_op_liabilities",
+      "excel": 9349.921751634476,
+      "python": 9349.921751634476,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "bank_principal",
+      "excel": 335.8355821844689,
+      "python": 335.8355821844689,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "current_bank",
+      "excel": 335.83558218446854,
+      "python": 335.83558218446854,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "closing_cip",
+      "excel": 2732.024717222433,
+      "python": 2732.024717222433,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "interest_accrual",
+      "excel": 208.78556627775993,
+      "python": 208.78556627775993,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "short_debt",
+      "excel": 11032.782239738206,
+      "python": 11032.782239738206,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2030E",
+      "metric": "long_debt",
+      "excel": 3.410605131648481e-13,
+      "python": 3.410605131648481e-13,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "revenue",
+      "excel": 70200.9030666852,
+      "python": 70200.9030666852,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "group_pat",
+      "excel": 11143.572800760583,
+      "python": 11143.572800760583,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "parent_pat",
+      "excel": 11121.285655159061,
+      "python": 11121.285655159061,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "cfo",
+      "excel": 8235.685066190965,
+      "python": 8235.685066190961,
+      "difference": 3.637978807091713e-12
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "closing_cash",
+      "excel": 3117.2022907261344,
+      "python": 3117.202290726128,
+      "difference": 6.366462912410498e-12
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "total_assets",
+      "excel": 112167.47813553581,
+      "python": 112167.47813553581,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "total_equity",
+      "excel": 85198.69305782061,
+      "python": 85198.69305782061,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "funding_gap",
+      "excel": 1796.8609239418306,
+      "python": 1796.8609239418365,
+      "difference": -5.9117155615240335e-12
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "deposit_interest_income",
+      "excel": 835.14226511104,
+      "python": 835.14226511104,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "interest_receipts",
+      "excel": 835.1422651110399,
+      "python": 835.1422651110399,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "trade_gross",
+      "excel": 18271.467921466014,
+      "python": 18271.467921466014,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "allowance",
+      "excel": 730.8587168586406,
+      "python": 730.8587168586406,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "credit_loss",
+      "excel": 35.56120890930595,
+      "python": 35.56120890930595,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "long_prepaids",
+      "excel": 2635.889290591878,
+      "python": 2635.889290591878,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "other_op_liabilities",
+      "excel": 9828.126429335929,
+      "python": 9828.126429335929,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "bank_principal",
+      "excel": 3.410605131648481e-13,
+      "python": 3.410605131648481e-13,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "current_bank",
+      "excel": 0,
+      "python": 0,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "closing_cip",
+      "excel": 2840.231323011605,
+      "python": 2840.231323011605,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "interest_accrual",
+      "excel": 208.78556627775993,
+      "python": 208.78556627775993,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "short_debt",
+      "excel": 10162.09932467605,
+      "python": 10162.09932467605,
+      "difference": 0
+    },
+    {
+      "scenario": "downside",
+      "period": "2031E",
+      "metric": "long_debt",
+      "excel": 3.410605131648481e-13,
+      "python": 3.410605131648481e-13,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "revenue",
+      "excel": 15796.289051619196,
+      "python": 15796.289051619196,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "group_pat",
+      "excel": 3127.6521874161945,
+      "python": 3127.6521874161945,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "parent_pat",
+      "excel": 3121.396883041362,
+      "python": 3121.396883041362,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "cfo",
+      "excel": 3835.2878856758493,
+      "python": 3835.2878856758493,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "closing_cash",
+      "excel": 9512.735664174852,
+      "python": 9512.735664174852,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "total_assets",
+      "excel": 78597.56838305132,
+      "python": 78597.56838305132,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "total_equity",
+      "excel": 46384.807715184405,
+      "python": 46384.807715184405,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "funding_gap",
+      "excel": 0,
+      "python": 0,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "deposit_interest_income",
+      "excel": 315.75241804198225,
+      "python": 315.75241804198225,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "interest_receipts",
+      "excel": 556.396283205883,
+      "python": 556.396283205883,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "trade_gross",
+      "excel": 10705.003864682667,
+      "python": 10705.003864682667,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "allowance",
+      "excel": 321.15011594048,
+      "python": 321.15011594048,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "credit_loss",
+      "excel": -25.49348320951998,
+      "python": -25.49348320951998,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "long_prepaids",
+      "excel": 1780.6449365412823,
+      "python": 1780.6449365412823,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "other_op_liabilities",
+      "excel": 8931.031795678111,
+      "python": 8931.031795678111,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "bank_principal",
+      "excel": 2647.17426909834,
+      "python": 2647.17426909834,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "current_bank",
+      "excel": 602.2896423767933,
+      "python": 602.2896423767933,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "closing_cip",
+      "excel": 1498.451641825819,
+      "python": 1498.451641825819,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "interest_accrual",
+      "excel": 272.21910696809914,
+      "python": 272.21910696809914,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "short_debt",
+      "excel": 14426.785836159675,
+      "python": 14426.785836159675,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "Q4 2026E",
+      "metric": "long_debt",
+      "excel": 2045.5893957872327,
+      "python": 2045.5893957872327,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "revenue",
+      "excel": 65298.662569746775,
+      "python": 65298.662569746775,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "group_pat",
+      "excel": 12970.352913851884,
+      "python": 12970.352913851884,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "parent_pat",
+      "excel": 12944.412208024181,
+      "python": 12944.412208024181,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "cfo",
+      "excel": 9363.575841150709,
+      "python": 9363.575841150705,
+      "difference": 3.637978807091713e-12
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "closing_cash",
+      "excel": 12563.776147215429,
+      "python": 12563.776147215425,
+      "difference": 3.637978807091713e-12
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "total_assets",
+      "excel": 89621.08617069005,
+      "python": 89621.08617069003,
+      "difference": 1.4551915228366852e-11
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "total_equity",
+      "excel": 56111.27536528193,
+      "python": 56111.27536528193,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "funding_gap",
+      "excel": 0,
+      "python": 0,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "deposit_interest_income",
+      "excel": 1252.71339766656,
+      "python": 1252.71339766656,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "interest_receipts",
+      "excel": 1462.296834751331,
+      "python": 1462.296834751331,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "trade_gross",
+      "excel": 12523.031177759656,
+      "python": 12523.031177759656,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "allowance",
+      "excel": 375.69093533278965,
+      "python": 375.69093533278965,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "credit_loss",
+      "excel": 54.54081939230963,
+      "python": 54.54081939230963,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "long_prepaids",
+      "excel": 1869.6771833683465,
+      "python": 1869.6771833683465,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "other_op_liabilities",
+      "excel": 10447.786011159484,
+      "python": 10447.786011159484,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "bank_principal",
+      "excel": 2044.8846267215467,
+      "python": 2044.8846267215467,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "current_bank",
+      "excel": 811.0271581097446,
+      "python": 811.0271581097446,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "closing_cip",
+      "excel": 2316.393722586832,
+      "python": 2316.393722586832,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "interest_accrual",
+      "excel": 62.63566988332809,
+      "python": 62.63566988332809,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "short_debt",
+      "excel": 14635.541225639558,
+      "python": 14635.541225639558,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2027E",
+      "metric": "long_debt",
+      "excel": 1234.3053198706743,
+      "python": 1234.3053198706743,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "revenue",
+      "excel": 75755.82889241891,
+      "python": 75755.82889241891,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "group_pat",
+      "excel": 15288.97208691406,
+      "python": 15288.97208691406,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "parent_pat",
+      "excel": 15258.394142740231,
+      "python": 15258.394142740231,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "cfo",
+      "excel": 11510.00359291869,
+      "python": 11510.003592918692,
+      "difference": -1.8189894035458565e-12
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "closing_cash",
+      "excel": 16499.54595336121,
+      "python": 16499.5459533612,
+      "difference": 7.275957614183426e-12
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "total_assets",
+      "excel": 102362.08777883428,
+      "python": 102362.08777883428,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "total_equity",
+      "excel": 67576.47553325878,
+      "python": 67576.47553325878,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "funding_gap",
+      "excel": 0,
+      "python": 0,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "deposit_interest_income",
+      "excel": 1252.71339766656,
+      "python": 1252.71339766656,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "interest_receipts",
+      "excel": 1252.71339766656,
+      "python": 1252.71339766656,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "trade_gross",
+      "excel": 14488.819733522743,
+      "python": 14488.819733522743,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "allowance",
+      "excel": 434.66459200568227,
+      "python": 434.66459200568227,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "credit_loss",
+      "excel": 58.973656672892616,
+      "python": 58.973656672892616,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "long_prepaids",
+      "excel": 1963.161042536764,
+      "python": 1963.161042536764,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "other_op_liabilities",
+      "excel": 12120.932622787026,
+      "python": 12120.932622787026,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "bank_principal",
+      "excel": 1233.8574686118022,
+      "python": 1233.8574686118022,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "current_bank",
+      "excel": 449.0109432136667,
+      "python": 449.0109432136667,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "closing_cip",
+      "excel": 2862.7030113728415,
+      "python": 2862.7030113728415,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "interest_accrual",
+      "excel": 62.63566988332809,
+      "python": 62.63566988332809,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "short_debt",
+      "excel": 14273.52430878226,
+      "python": 14273.52430878226,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2028E",
+      "metric": "long_debt",
+      "excel": 785.0381608114149,
+      "python": 785.0381608114149,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "revenue",
+      "excel": 86395.76873593661,
+      "python": 86395.76873593661,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "group_pat",
+      "excel": 17729.871771732127,
+      "python": 17729.871771732127,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "parent_pat",
+      "excel": 17694.412028188664,
+      "python": 17694.412028188664,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "cfo",
+      "excel": 13762.5878043509,
+      "python": 13762.5878043509,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "closing_cash",
+      "excel": 22267.104709094296,
+      "python": 22267.10470909429,
+      "difference": 7.275957614183426e-12
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "total_assets",
+      "excel": 117348.87921927223,
+      "python": 117348.87921927223,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "total_equity",
+      "excel": 80872.1063748807,
+      "python": 80872.1063748807,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "funding_gap",
+      "excel": 0,
+      "python": 0,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "deposit_interest_income",
+      "excel": 1252.71339766656,
+      "python": 1252.71339766656,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "interest_receipts",
+      "excel": 1252.71339766656,
+      "python": 1252.71339766656,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "trade_gross",
+      "excel": 16569.051538398802,
+      "python": 16569.051538398802,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "allowance",
+      "excel": 497.07154615196407,
+      "python": 497.07154615196407,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "credit_loss",
+      "excel": 62.406954146281805,
+      "python": 62.406954146281805,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "long_prepaids",
+      "excel": 2061.3190946636023,
+      "python": 2061.3190946636023,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "other_op_liabilities",
+      "excel": 13823.322997749858,
+      "python": 13823.322997749858,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "bank_principal",
+      "excel": 784.8465253981356,
+      "python": 784.8465253981356,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "current_bank",
+      "excel": 449.0109432136667,
+      "python": 449.0109432136667,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "closing_cip",
+      "excel": 3245.66264914109,
+      "python": 3245.66264914109,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "interest_accrual",
+      "excel": 62.63566988332809,
+      "python": 62.63566988332809,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "short_debt",
+      "excel": 14273.459728349946,
+      "python": 14273.459728349946,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2029E",
+      "metric": "long_debt",
+      "excel": 335.8355821844689,
+      "python": 335.8355821844689,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "revenue",
+      "excel": 96828.28887329217,
+      "python": 96828.28887329217,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "group_pat",
+      "excel": 20197.192628295634,
+      "python": 20197.192628295634,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "parent_pat",
+      "excel": 20156.798243039044,
+      "python": 20156.798243039044,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "cfo",
+      "excel": 16222.444624393134,
+      "python": 16222.444624393134,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "closing_cash",
+      "excel": 29816.554593811044,
+      "python": 29816.55459381103,
+      "difference": 1.4551915228366852e-11
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "total_assets",
+      "excel": 134136.05693464854,
+      "python": 134136.05693464854,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "total_equity",
+      "excel": 96017.98112683959,
+      "python": 96017.98112683959,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "funding_gap",
+      "excel": 0,
+      "python": 0,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "deposit_interest_income",
+      "excel": 1252.71339766656,
+      "python": 1252.71339766656,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "interest_receipts",
+      "excel": 1252.71339766656,
+      "python": 1252.71339766656,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "trade_gross",
+      "excel": 18569.808825014938,
+      "python": 18569.808825014938,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "allowance",
+      "excel": 557.0942647504481,
+      "python": 557.0942647504481,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "credit_loss",
+      "excel": 60.02271859848406,
+      "python": 60.02271859848406,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "long_prepaids",
+      "excel": 2164.3850493967825,
+      "python": 2164.3850493967825,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "other_op_liabilities",
+      "excel": 15492.526219726748,
+      "python": 15492.526219726748,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "bank_principal",
+      "excel": 335.8355821844689,
+      "python": 335.8355821844689,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "current_bank",
+      "excel": 335.83558218446854,
+      "python": 335.83558218446854,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "closing_cip",
+      "excel": 3510.982957599743,
+      "python": 3510.982957599743,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "interest_accrual",
+      "excel": 62.63566988332809,
+      "python": 62.63566988332809,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "short_debt",
+      "excel": 14160.092731907469,
+      "python": 14160.092731907469,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2030E",
+      "metric": "long_debt",
+      "excel": 3.410605131648481e-13,
+      "python": 3.410605131648481e-13,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "revenue",
+      "excel": 105644.52646608386,
+      "python": 105644.52646608386,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "group_pat",
+      "excel": 22409.803742350436,
+      "python": 22409.803742350436,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "parent_pat",
+      "excel": 22364.984134865736,
+      "python": 22364.984134865736,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "cfo",
+      "excel": 18568.269719458556,
+      "python": 18568.269719458553,
+      "difference": 3.637978807091713e-12
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "closing_cash",
+      "excel": 39376.48180676032,
+      "python": 39376.4818067603,
+      "difference": 2.1827872842550278e-11
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "total_assets",
+      "excel": 152371.96226799456,
+      "python": 152371.96226799453,
+      "difference": 2.9103830456733704e-11
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "total_equity",
+      "excel": 112823.09295322817,
+      "python": 112823.09295322817,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "funding_gap",
+      "excel": 0,
+      "python": 0,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "deposit_interest_income",
+      "excel": 1252.71339766656,
+      "python": 1252.71339766656,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "interest_receipts",
+      "excel": 1252.71339766656,
+      "python": 1252.71339766656,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "trade_gross",
+      "excel": 20260.594116783206,
+      "python": 20260.594116783206,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "allowance",
+      "excel": 607.8178235034961,
+      "python": 607.8178235034961,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "credit_loss",
+      "excel": 50.723558753047996,
+      "python": 50.723558753047996,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "long_prepaids",
+      "excel": 2272.604301866622,
+      "python": 2272.604301866622,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "other_op_liabilities",
+      "excel": 16903.124234573417,
+      "python": 16903.124234573417,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "bank_principal",
+      "excel": 3.410605131648481e-13,
+      "python": 3.410605131648481e-13,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "current_bank",
+      "excel": 0,
+      "python": 0,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "closing_cip",
+      "excel": 3657.0929551893805,
+      "python": 3657.0929551893805,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "interest_accrual",
+      "excel": 62.63566988332809,
+      "python": 62.63566988332809,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "short_debt",
+      "excel": 13824.257149723,
+      "python": 13824.257149723,
+      "difference": 0
+    },
+    {
+      "scenario": "upside",
+      "period": "2031E",
+      "metric": "long_debt",
+      "excel": 3.410605131648481e-13,
+      "python": 3.410605131648481e-13,
+      "difference": 0
+    }
+  ]
+}

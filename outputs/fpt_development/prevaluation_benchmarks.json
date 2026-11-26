@@ -1,0 +1,53 @@
+{
+  "unit": "VND billion",
+  "research_cutoff": "2026-11-23",
+  "october_rounding": "10M management figures rounded; October amounts are approximate differences.",
+  "pbt_scope": "October PBT is a benchmark; full Q4 PBT is modelled at quarterly level. Implied November\u2013December is not reported actuals.",
+  "cases": [
+    {
+      "scenario": "base",
+      "fy2026_revenue": 55029.13427040724,
+      "management_revenue_target": 58580.0,
+      "revenue_difference_to_target": -3550.8657295927624,
+      "october_revenue_observed_approx": 4936.340328630999,
+      "nov_dec_revenue_projected": 10070.134270407236,
+      "october_pbt_observed_approx": 1183.8392605669997,
+      "nov_dec_pbt_implied": 1884.223805287651,
+      "fy2026_pbt": 11838.223805287651,
+      "management_pbt_target": 11629.0,
+      "pbt_difference_to_target": 209.22380528765098,
+      "fy2026_cash_capex": 3528.801162827,
+      "broader_investment_budget": 7200.0
+    },
+    {
+      "scenario": "downside",
+      "fy2026_revenue": 53844.4125915358,
+      "management_revenue_target": 58580.0,
+      "revenue_difference_to_target": -4735.587408464198,
+      "october_revenue_observed_approx": 4936.340328630999,
+      "nov_dec_revenue_projected": 8885.412591535796,
+      "october_pbt_observed_approx": 1183.8392605669997,
+      "nov_dec_pbt_implied": 1033.9508840948665,
+      "fy2026_pbt": 10987.950884094866,
+      "management_pbt_target": 11629.0,
+      "pbt_difference_to_target": -641.0491159051344,
+      "fy2026_cash_capex": 3828.8011628270006,
+      "broader_investment_budget": 7200.0
+    },
+    {
+      "scenario": "upside",
+      "fy2026_revenue": 55818.94872298819,
+      "management_revenue_target": 58580.0,
+      "revenue_difference_to_target": -2761.0512770118075,
+      "october_revenue_observed_approx": 4936.340328630999,
+      "nov_dec_revenue_projected": 10859.948722988198,
+      "october_pbt_observed_approx": 1183.8392605669997,
+      "nov_dec_pbt_implied": 2334.0268495287173,
+      "fy2026_pbt": 12288.026849528716,
+      "management_pbt_target": 11629.0,
+      "pbt_difference_to_target": 659.0268495287164,
+      "fy2026_cash_capex": 3728.801162827,
+      "broader_investment_budget": 7200.0
+    }
+  ]
+}

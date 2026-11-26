@@ -1,0 +1,39 @@
+{
+  "status": "FORWARD_RESEARCH_VALUATION",
+  "research_cutoff": "2026-11-23",
+  "valuation_date": "2026-12-31",
+  "files": [
+    {
+      "path": "outputs/p1_final/FPT_Research_Model_Clock_C.xlsx",
+      "sha256": "02114af54203a36e90d9d3f7f4203c6150ed3f9d77ea4132da26b8a1bab5dc7e",
+      "size_bytes": 123626
+    },
+    {
+      "path": "outputs/p1_final/FPT_Research_Dashboard_Clock_C.html",
+      "sha256": "cf6b27e7421cf3d2ef500152333ffca475419c22328319d3dc144aeac5a86efa",
+      "size_bytes": 102525
+    },
+    {
+      "path": "outputs/p1_final/FPT_Equity_Research_Clock_C.pdf",
+      "sha256": "316ee12ca411f0cbf4f425559206e1dd0816a7e13e444d173fd15bd4d9187e01",
+      "size_bytes": 33514
+    },
+    {
+      "path": "outputs/p1_final/clock_c_valuation.json",
+      "sha256": "ae53b092b6186bfc0b0a681e0942d8ea85b598dbc4f99450714b7caa1858a956",
+      "size_bytes": 20129
+    },
+    {
+      "path": "notebooks/03_clock_c_valuation_and_decision.ipynb",
+      "sha256": "5d975228bf929bde502c5e4b5f6a6ab076e1c3e674a9fa292c778f2e4181a2f1",
+      "size_bytes": 9639
+    }
+  ],
+  "reported_source_verified": true,
+  "run_id": "dev-60833b4e31ba",
+  "repository_checks_passed": 62,
+  "excel_output_comparisons": 378,
+  "javascript_numeric_comparisons": 1584,
+  "analyst_assumption_rows": 684,
+  "stress_cases": 9
+}
