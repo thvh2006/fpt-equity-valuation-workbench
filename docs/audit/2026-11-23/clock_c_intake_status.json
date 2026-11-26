@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "opening balance-sheet intake only; not a forecast release approval",
+  "fact_count": 18,
+  "required_count": 18,
+  "reconciliations": {
+    "asset_components": 0.0,
+    "liability_components": 0.0,
+    "equity_components": 0.0,
+    "balance_sheet": 0.0
+  },
+  "errors": []
+}

@@ -1,0 +1,12 @@
+{
+  "retrieved_on": "2026-11-23",
+  "upstream_observed_commit": "1196c95fe28076df6ff4fac34fcd974db0137bc3",
+  "transport": "Chrome GitHub Download ZIP; not a fetched Git history",
+  "archive_path": "/Users/thvh2006/Downloads/fpt-equity-valuation-workbench-main (1).zip",
+  "archive_sha256": "f0dd0e3b3a28577690adcbcab06fe2da84bcad0b6db4962c7f2a4bb5444fa754",
+  "workbook_path": "reports/fpt_equity_valuation_v0_8.xlsx",
+  "workbook_sha256": "488ee82ad7e50f195222504da249c78dc0c9251df2641db27f136db41187ca89",
+  "baseline_checks": 20,
+  "runtime_observed": "Python 3.9.6",
+  "declared_supported_runtime": "Python >=3.10; not requalified on this host"
+}

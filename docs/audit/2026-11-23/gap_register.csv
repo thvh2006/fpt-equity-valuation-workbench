@@ -1,0 +1,11 @@
+gap_id,area,status,evidence,next_action
+A01,Historical financial statements,partial,"Annual Actuals contains headline facts, not full historical statements",Extract full IS BS CF with perimeter and date controls
+A02,Operating FCFF and SOTP,present,Clock B Build and clock_b.py; five base cache checks match,Preserve frozen outputs
+A03,Forecast balance sheet,missing,No forecast BS schedule in current workbook/code,Build after verified opening and Q4 stub
+A04,Forecast cash flow,missing,FCFF is present; CFO CFI CFF and opening/closing cash are absent,Build linked CF and financing
+A05,Debt interest and equity roll-forwards,missing,Static bridge inputs plus net financial income ratios,Build maturity funding distributions and equity schedules
+A06,Opening Q3 2026,content_reviewed_not_released,18 primary-text groups reconcile; binary verification pending,Acquire hash and visually review original
+A07,HTML dashboard,missing,No dashboard folder in observed archive,Build interactive reviewed-scenario view after engine
+A08,Notebook coverage,partial,One existing valuation walkthrough,Add source accounting forecast and robustness notebooks
+A09,Reports,existing_clock_b_frozen,Existing reports present; new outlines added only,Write new findings only after model evidence
+A10,P2 investable data,insufficient,Single FPT monthly price series; 70 observations,Verify multi-asset daily source membership actions benchmark and rights
